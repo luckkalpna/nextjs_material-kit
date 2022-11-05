@@ -27,7 +27,7 @@ function App() {
           <div className="heart"></div>
             WITH ICON</button>
           <button className='btn-symbol'>
-          <div className="symbol-heart">h</div>
+          <div className="symbol-heart"></div>
           </button>
           <button className='btn-simple'>SIMPLE</button>
         </div>
@@ -54,37 +54,46 @@ function App() {
         <div className="crt">
           <div className="checkbox">Checkboxes
           <form action="">
-          <input type="checkbox" className="vehicle1" name="vehicle1" value="Bike"/>
-          <label for="vehicle1" className="vehicle1"> I have a bike</label><br/>
+          <input type="checkbox" className="checkbox1" name="vehicle1" value="unchecked"/>
+          <label for="vehicle1" className="checkbox1">Unchecked</label><br/>
 
-          <input type="checkbox" className="vehicle1" name="vehicle2" value="Car"/>
-          <label for="vehicle1" className="vehicle1"> I have a car</label><br/>
+          <input type="checkbox" className="checkbox1" name="vehicle2" value="checked"/>
+          <label for="vehicle1" className="checkbox1">Checked</label><br/>
 
-          <input type="checkbox" className="vehicle1" name="vehicle3" value="Boat"/>
-          <label for="vehicle1" className="vehicle1"> I have a boat</label><br/>
+          <input type="checkbox" className="checkbox1" name="vehicle3" value="disabled unchecked" disabled/>
+          <label for="vehicle1" className="checkbox1">Disabled Unchecked</label><br/>
 
-          <input type="checkbox" className="vehicle1" name="vehicle3" value="Boat"/>
-          <label for="vehicle1" className="vehicle1"> I have a boat</label>
+          <input type="checkbox" className="checkbox1" name="vehicle3" value="disabled checked" disabled/>
+          <label for="vehicle1" className="checkbox1">Disabled Checked</label>
           </form>
           </div>
 
           <div className="radio">Radio Buttons
           <form action="">
-          <input type="radio" name="fav_language" value="uncheck"/>
+          <input type="radio" className="radio2" name="fav_language" value="uncheck"/>
           <label for="select" className="radio1">First Radio</label><br />
 
           <input type="radio" name="fav_language" value="uncheck"/>
           <label for="select" className="radio1">Second Radio</label><br />
 
-          <input type="radio" name="fav_language" value="disabled"/>
-          <label for="select" className="radio1">Third Radio</label><br />
+          <input type="radio" name="fav_language" value="uncheck" disabled/>
+          <label for="select" className="radio1">Disabled Unchecked Radio</label><br />
           
-          <input type="radio" name="fav_language" value="uncheck"/>
-          <label for="select" className="radio1">Fourth Radio</label>
+          <input type="radio" name="fav_language" value="uncheck" disabled/>
+          <label for="select" className="radio1">Disabled Checked Radio</label>
           </form>
           </div>
 
-          <div className="toggle">Toggle Buttons</div>
+          <div className="toggle">Toggle Buttons <br />
+          <label className="switch toggle-txt"> Toggle is on
+          <input type="checkbox"/>
+          <span className="slider round"></span>
+          </label> <br />
+          <label className="switch toggle-txt">Toggle is off
+          <input type="checkbox"/>
+          <span className="slider round "></span> 
+          </label>
+          </div>
         </div>
         {/* ---------------progressbar & pagination------------- */}
         <div className="progresspage">

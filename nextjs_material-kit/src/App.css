@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 500vh;
+  height: 595vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   height: 500vh;
   background-color: white;
   border: 1px white;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .text-box{
@@ -27,13 +27,15 @@
 
 .text{
   font-weight: 700;
-  font-size: 50px;
+  font-size: 52px;
   font-family: 'Inter';
   color: white;
 }
 
 .texts{
+  margin-top: -2em;
   font-size: 15px;
+  word-spacing: 3px;
   font-family: 'Inter';
   color: white;
 }
@@ -94,7 +96,7 @@
   display: flex;
   height: 40px;
   width: 150px;
-  margin-right: .2em;
+  margin-right: .3em;
   padding-top: 12px;
   padding-left: 30px;
   color: white;
@@ -115,7 +117,7 @@
 .heart:before, .heart:after { 
   position: absolute; 
   content: ""; 
-  left: -5px; 
+  left: 25px; 
   top: -4px; 
   width: 15px; 
   height: 23px; 
@@ -126,40 +128,49 @@
 } 
 
 .heart:after { 
-  left: 0; 
+  left: 30px; 
   transform: rotate(-50deg); 
   transform-origin :100% 100%; 
 }
 
 .btn-symbol{
-  color: white;
-  margin-top: .2em;
+  margin-top: -.1em;
   border: 1px solid mediumvioletred;
   border-radius: 100%;
   background-color: mediumvioletred;
   margin-right: .5em;
-  width: 40px; 
-  height: 38px;
+  width: 45px; 
+  height: 43px;
 }
   
+
+.symbol-heart{
+  margin-left: .5em;
+  height: 15px;
+  width: 15px;
+  border: 1px solid white;
+  border-radius: 100%;
+  background: white;
+}
+
 /* .symbol-heart:before, .symbol-heart:after { 
   position: absolute; 
   content: ""; 
-  left: -5px; 
+  left: 25px; 
   top: -4px; 
   width: 15px; 
   height: 23px; 
   background: white; 
   border-radius: 50px 50px 0 0; 
   transform: rotate(50deg); 
-  transform-origin: 0 100%; 
+  transform-origin: 0 100%;
 } 
   
 .symbol-heart:after { 
-  left: 0; 
+  left: 30px; 
   transform: rotate(-50deg); 
   transform-origin :100% 100%; 
-} */
+}  */
 
 .btn-simple{
   height: 40px;
@@ -358,9 +369,10 @@
   border: 1px solid black;
 }
 
-.vehicle1{
+.checkbox1{
   color: rgb(187, 183, 183);
-  font-size: 1.5vw;
+  word-spacing: 10px;
+  font-size: 1.1vw;
   font-weight: 350;
 }
 
@@ -373,8 +385,13 @@
 
 .radio1{
   color: rgb(187, 183, 183);
-  font-size: 1.5vw;
+  word-spacing: 10px;
+  font-size: 1.1vw;
   font-weight: 350;
+}
+
+.radio2{
+  margin-right: 1em;
 }
 
 .toggle{
@@ -383,6 +400,79 @@
   width: 250px;
   border: 1px solid black;
 }
+
+.toggle-txt{
+  margin-left: 5em;
+  font-family: 'Inter';
+  color: rgb(187, 183, 183);
+  word-spacing: 10px;
+  font-size: 1.1vw;
+  font-weight: 350;
+}
+
+.switch {
+  position: absolute;
+  display: flex;
+  width: 38px;
+  height: 45px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  margin-top: 20px;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(132, 127, 127);
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: -3px;
+  left: 0;
+  bottom: 4px;
+  background-color: white;
+  border: 1px solid rgb(132, 127, 127);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: mediumvioletred;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px mediumvioletred;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 70%;
+}
+
 
 .progresspage{
   display: flex;
