@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Pagination from './components/Pagination';
 import Navbar from './Navbar'
 
 function App() {
   return ( 
     <div className="App">
-        {/* ---------------------------header------------------------ */}
+        {/* ----------------------- header --------------------- */}
       <div className="App-header">
         <img src="./nextjs_header.jpg" alt="image" />
         <div className="container">
@@ -13,7 +14,7 @@ function App() {
           <h4 className='text'>NextJS Material Kit.</h4>
           <p className='texts'>A Badass Material Kit based on Material-UI and NextJS.</p>
         </div>
-        {/* -----------------------buttons----------------------- */}
+        {/* --------------------- buttons --------------------- */}
         <div className="section">
           Basic Elements
         </div>
@@ -54,16 +55,16 @@ function App() {
         <div className="crt">
           <div className="checkbox">Checkboxes
           <form action="">
-          <input type="checkbox" className="checkbox1" name="vehicle1" value="unchecked"/>
+          <input type="checkbox" className="checkbox2" name="vehicle1" value="unchecked"/>
           <label for="vehicle1" className="checkbox1">Unchecked</label><br/>
 
-          <input type="checkbox" className="checkbox1" name="vehicle2" value="checked"/>
+          <input type="checkbox" className="checkbox2" name="vehicle2" value="checked"/>
           <label for="vehicle1" className="checkbox1">Checked</label><br/>
 
-          <input type="checkbox" className="checkbox1" name="vehicle3" value="disabled unchecked" disabled/>
+          <input type="checkbox" className="checkbox2" name="vehicle3" value="disabled unchecked" disabled/>
           <label for="vehicle1" className="checkbox1">Disabled Unchecked</label><br/>
 
-          <input type="checkbox" className="checkbox1" name="vehicle3" value="disabled checked" disabled/>
+          <input type="checkbox" className="checkbox2" name="vehicle3" value="disabled checked" disabled checked="true"/>
           <label for="vehicle1" className="checkbox1">Disabled Checked</label>
           </form>
           </div>
@@ -73,13 +74,13 @@ function App() {
           <input type="radio" className="radio2" name="fav_language" value="uncheck"/>
           <label for="select" className="radio1">First Radio</label><br />
 
-          <input type="radio" name="fav_language" value="uncheck"/>
+          <input type="radio" className="radio2" name="fav_language" value="uncheck"/>
           <label for="select" className="radio1">Second Radio</label><br />
 
-          <input type="radio" name="fav_language" value="uncheck" disabled/>
+          <input type="radio" className="radio2" name="fav_language" value="uncheck" disabled/>
           <label for="select" className="radio1">Disabled Unchecked Radio</label><br />
           
-          <input type="radio" name="fav_language" value="uncheck" disabled/>
+          <input type="radio" className="radio2" name="fav_language" value="uncheck" disabled checked="true"/>
           <label for="select" className="radio1">Disabled Checked Radio</label>
           </form>
           </div>
@@ -98,11 +99,24 @@ function App() {
         {/* ---------------progressbar & pagination------------- */}
         <div className="progresspage">
           <div className="progressbar">Progress Bar
-          <div className="prgsbar1">helo</div>
-          <div className="prgsbar2">world</div>
-          <div className="prgsbar3">hlw</div>
+          <div className="prgsbar1">
+            <div className="prgdrk"></div>
+            <div className="prglgh"></div>
           </div>
-          <div className="pagination">Pagination</div>
+          <div className="prgsbar2">
+            <div className="prg2drk"></div>
+            <div className="prg2lgh"></div>
+          </div>
+          <div className="prgsbar3">
+            <div className="prg3grn"></div>
+            <div className="prg3org"></div>
+            <div className="prg3red"></div>
+            <div className="prg3lgh"></div>
+          </div>
+          </div>
+          <div className="pagination">Pagination
+          <Pagination count={10} color="secondary" />
+          </div>
         </div>
         </div>
       </div>

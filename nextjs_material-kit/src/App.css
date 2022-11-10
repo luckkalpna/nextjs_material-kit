@@ -376,6 +376,10 @@
   font-weight: 350;
 }
 
+.checkbox2{
+  margin-right: 1em;
+}
+
 .radio{
   margin-right: 2em;
   height: 200px;
@@ -483,7 +487,16 @@ input:checked + .slider:before {
 }
 
 .progressbar{
-  margin-right: 3.5em;
+  margin-right: 1em;
+  border: 1px solid black;
+  color: rgb(72, 70, 70);
+  font-size: 25px;
+  font-weight: 400;
+  height: 150px;
+  width: 50%;
+}
+
+.pagination{
   border: 1px solid black;
   color: rgb(72, 70, 70);
   font-size: 25px;
@@ -492,10 +505,60 @@ input:checked + .slider:before {
   width: 40%;
 }
 
-.pagination{
-  border: 1px solid black;
-  color: grey;
-  font-size: 20px;
-  height: 150px;
-  width: 40%;
+.prgsbar1{
+  display: flex;
+  margin-top: 1em;
+  height: 4px;
+}
+
+.prgdrk{
+  background-color: mediumvioletred;
+  width: 25%;
+}
+
+.prglgh{
+  background-color: rgb(241, 178, 218);
+  width: 75%;
+}
+
+.prgsbar2{
+  display: flex;
+  margin-top: 1em;
+  height: 4px;
+}
+
+.prg2drk{
+  background-color: rgb(5, 137, 157);
+  width: 60%;
+}
+
+.prg2lgh{
+  background-color: rgb(145, 228, 240);
+  width: 60%;
+}
+
+.prgsbar3{
+  display: flex;
+  margin-top: 1em;
+  height: 4px;
+}
+
+.prg3grn{
+  background-color: rgb(3, 163, 3);
+  width: 35%;
+}
+
+.prg3org{
+  background-color: orange;
+  width: 25%;
+}
+
+.prg3red{
+  background-color: red;
+  width: 15%;
+}
+
+.prg3lgh{
+  background-color: rgb(249, 183, 183);
+  width: 30%;
 }
