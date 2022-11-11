@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Pagination from './components/Pagination';
 import Navbar from './Navbar'
 
 function App() {
@@ -49,8 +48,65 @@ function App() {
         <button className='btn-rose'>ROSE</button>
         </div>
         {/* ---------------------------forms------------------------------ */}
-        <p className="input-txt">Inputs</p>
-        <form action=""></form>
+        <p className="input-txt">Inputs
+        <div className="simple-form">
+          <div className="form1">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>Regular</label>
+            </div>
+          </form> 
+          </div>
+          <div className="form2">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>With floating label
+                </label>
+            </div>
+          </form> 
+          </div>
+          <div className="form3">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>Success input
+                </label>
+            </div>
+          </form> 
+          </div>
+          <div className="form4">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>Error input
+                </label>
+            </div>
+          </form> 
+          </div>
+        </div>
+        <div className="icon-form">
+          <div className="form1">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>Error input
+                </label>
+            </div>
+          </form>
+          </div>
+          <div className="form2">
+          <form action="">
+          <div className="user-box">
+                <input type="text" name="" required=""/>
+                <label>Error input
+                </label>
+            </div>
+          </form>
+          </div>
+        </div>
+        </p>
         {/* ------------check box radio button toggle mode--------- */}
         <div className="crt">
           <div className="checkbox">Checkboxes
@@ -115,9 +171,12 @@ function App() {
           </div>
           </div>
           <div className="pagination">Pagination
-          <Pagination count={10} color="secondary" />
           </div>
         </div>
+          <div className="slider-budges">
+            <div className="slider2">slider</div>
+            <div className="budges">Budges</div>
+          </div>  
         </div>
       </div>
     </div>
