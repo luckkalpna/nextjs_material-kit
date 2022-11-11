@@ -174,7 +174,8 @@ function App() {
           </div>
         </div>
           <div className="slider-budges">
-            <div className="slider2">slider</div>
+            <div className="slidercontainer">Slider <br />
+            </div>
             <div className="budges">Budges</div>
           </div>  
         </div>
