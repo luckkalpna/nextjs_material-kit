@@ -287,9 +287,10 @@ function App() {
 							>
 								&times;
 							</span>
-							<bold>Danger!</bold> 
-              <p className="closebtn">Indicates a dangerous or potentially
-							negative action.</p>
+							<bold>Danger!</bold>
+							<p className="closebtn">
+								Indicates a dangerous or potentially negative action.
+							</p>
 						</div>
 						<div className="success">
 							<span
@@ -298,9 +299,10 @@ function App() {
 							>
 								&times;
 							</span>
-							<bold>Danger!</bold> 
-              <p className="closebtn">Indicates a dangerous or potentially
-							negative action.</p>
+							<bold>Danger!</bold>
+							<p className="closebtn">
+								Indicates a dangerous or potentially negative action.
+							</p>
 						</div>
 						<div className="info">
 							<span
@@ -309,8 +311,10 @@ function App() {
 							>
 								&times;
 							</span>
-							<bold>Danger!</bold> 
-              <p className="closebtn">Indicates a dangerous or potentially negative action.</p>
+							<bold>Danger!</bold>
+							<p className="closebtn">
+								Indicates a dangerous or potentially negative action.
+							</p>
 						</div>
 						<div className="warning">
 							<span
@@ -320,86 +324,153 @@ function App() {
 								&times;
 							</span>
 							<bold>Danger!</bold>
-              <p className="closebtn">Indicates a dangerous or potentially
-							negative action.</p>
+							<p className="closebtn">
+								Indicates a dangerous or potentially negative action.
+							</p>
 						</div>
 					</div>
-          <div className="typographycontainer">Typography
-          <div className="typography1">
-            <div className="header1">Header 1</div>
-            <div className="headertxt1">The Life of Material Kit</div>
-          </div>
-          <div className="typography2">
-            <div className="header2">Header 2</div>
-            <div className="headertxt2">The Life of Material Kit</div>
-          </div>
-          <div className="typography3">
-            <div className="header3">Header 3</div>
-            <div className="headertxt3">The Life of Material Kit</div>
-          </div>
-          <div className="typography4">
-            <div className="header4">Header 4</div>
-            <div className="headertxt4">The Life of Material Kit</div>
-          </div>
-          <div className="typography5">
-            <div className="header5">Header 5</div>
-            <div className="headertxt5">The Life of Material Kit</div>
-          </div>
-          <div className="typography6">
-            <div className="header6">Header 6</div>
-            <div className="headertxt6">The Life of Material Kit</div>
-          </div>
-          <div className="typography7">
-            <div className="heading1">Heading 1</div>
-            <div className="headingtxt1">The Life of Material Kit</div>
-          </div>
-          <div className="typography8">
-            <div className="heading2">Heading 2</div>
-            <div className="headingtxt2">The Life of Material Kit</div>
-          </div>
-          <div className="typography9">
-            <div className="heading3">Heading 3</div>
-            <div className="headingtxt3">The Life of Material Kit</div>
-          </div>
-          <div className="typography10">
-            <div className="heading4">Heading 4</div>
-            <div className="headingtxt4">The Life of Material Kit</div>
-          </div>
-          <div className="typography11">
-          <div className="paragraph">Paragraph</div>
-          <p className="para">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that a responsibility that I have, to push possibilities, to show people, this is the level that things could be at.</p>
-          </div>
-          <div className="typography12">
-            <div className="muted">Muted Text</div>
-            <div className="mutedtxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography13">
-            <div className="primary">Primary Text</div>
-            <div className="primarytxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography14">
-            <div className="infoh">Info Text</div>
-            <div className="infotxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography15">
-            <div className="suces">Success Text</div>
-            <div className="sucestxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography16">
-            <div className="warn">Warning Text</div>
-            <div className="warntxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography17">
-            <div className="danger">Danger Text</div>
-            <div className="dangertxt">I will be the leader of a company that ends up being worth billions of dollars, because I got the answers...</div>
-          </div>
-          <div className="typography18">
-            <div className="smalltag">Small Tag</div>
-            <div className="smalltagtxt">
-              <p className="smalltxt1">Header with small subtitle</p>
-              <p className="smalltxt2">Header with small subtitle</p>
+
+{/* -------------------- typographycontainer --------------------- */}
+
+					<div className="typographycontainer">
+						Typography
+						<div className="typography1">
+							<div className="header1">Header 1</div>
+							<div className="headertxt1">The Life of Material Kit</div>
+						</div>
+						<div className="typography2">
+							<div className="header2">Header 2</div>
+							<div className="headertxt2">The Life of Material Kit</div>
+						</div>
+						<div className="typography3">
+							<div className="header3">Header 3</div>
+							<div className="headertxt3">The Life of Material Kit</div>
+						</div>
+						<div className="typography4">
+							<div className="header4">Header 4</div>
+							<div className="headertxt4">The Life of Material Kit</div>
+						</div>
+						<div className="typography5">
+							<div className="header5">Header 5</div>
+							<div className="headertxt5">The Life of Material Kit</div>
+						</div>
+						<div className="typography6">
+							<div className="header6">Header 6</div>
+							<div className="headertxt6">The Life of Material Kit</div>
+						</div>
+						<div className="typography7">
+							<div className="heading1">Heading 1</div>
+							<div className="headingtxt1">The Life of Material Kit</div>
+						</div>
+						<div className="typography8">
+							<div className="heading2">Heading 2</div>
+							<div className="headingtxt2">The Life of Material Kit</div>
+						</div>
+						<div className="typography9">
+							<div className="heading3">Heading 3</div>
+							<div className="headingtxt3">The Life of Material Kit</div>
+						</div>
+						<div className="typography10">
+							<div className="heading4">Heading 4</div>
+							<div className="headingtxt4">The Life of Material Kit</div>
+						</div>
+						<div className="typography11">
+							<div className="paragraph">Paragraph</div>
+							<p className="para">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers. I understand
+								culture. I am the nucleus. I think that a responsibility that I
+								have, to push possibilities, to show people, this is the level
+								that things could be at.
+							</p>
+						</div>
+						<div className="typography12">
+							<div className="muted">Muted Text</div>
+							<div className="mutedtxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography13">
+							<div className="primary">Primary Text</div>
+							<div className="primarytxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography14">
+							<div className="infoh">Info Text</div>
+							<div className="infotxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography15">
+							<div className="suces">Success Text</div>
+							<div className="sucestxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography16">
+							<div className="warn">Warning Text</div>
+							<div className="warntxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography17">
+							<div className="danger">Danger Text</div>
+							<div className="dangertxt">
+								I will be the leader of a company that ends up being worth
+								billions of dollars, because I got the answers...
+							</div>
+						</div>
+						<div className="typography18">
+							<div className="smalltag">Small Tag</div>
+							<div className="smalltagtxt">
+								<p className="smalltxt1">Use "Small" tag for the headers</p>
+								<p className="smalltxt2">Header with small subtitle</p>
+							</div>
+						</div>
+					</div>
+
+{/* --------------------- image-container ------------------ */}
+
+          <div className="image-container">
+            <div className="imagetxt">Images</div>
+            <div className="imageboxtxt">
+              <div className="roundetxt">Rounded Image</div>
+              <div className="circletxt">Circle Image</div>
+              <div className="rounderaisedtxt">Rounded Raised</div>
+              <div className="circleraisedtxt">Circle Raised</div>
+            </div>
+            <div className="imagebox">
+              <div className="rounderimage">
+                <img src="image/profiletype.jpg" alt="image" className="rounderimage"/>
               </div>
+              <div className="circleimage">
+              <img src="image/profiletype.jpg" alt="image" className="circleimage"/>
+              </div>
+              <div className="rounderaisedimage">
+              <img src="image/profiletype.jpg" alt="image" className="rounderaisedimage"/>
+              </div>
+              <div className="circleraisedimage">
+              <img src="image/profiletype.jpg" alt="image" className="circleraisedimage"/>
+              </div>
+            </div>
           </div>
+
+{/* ----------------- JavaScript Components ------------------- */}
+          <div className="javascript-container">
+            <div className="javascripttxt">Javascript components</div>
+            <div className="modal-popove-toplist">
+            <div className="modal"></div>
+            <div className="popovers-toplists">
+              <div className="popovetxt">Popovers</div>
+              <div className="popovebtns"></div>
+            </div>
+            </div>
           </div>
 				</div>
 			</div>

@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 800vh;
+  height: 1000vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -10,10 +10,10 @@
 }
 
 .container{
-  margin-left: 3em;
+  margin-left: 1.5em;
   margin-top: -13em;
-  width: 92vw;
-  height: 700vh;
+  width: 95vw;
+  height: 900vh;
   background-color: white;
   border: 1px white;
   border-radius: 15px;
@@ -1501,14 +1501,12 @@ input:checked + .slidert:before {
 }
 
 .typography18{
-  border: 1px solid red;
   display: flex;
-  height: 100px;
+  height: 80px;
 }
 
 .smalltag{
-  border: 1px solid black;
-  margin-top: 2em;
+  margin-top: 5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -1518,31 +1516,159 @@ input:checked + .slidert:before {
 }
 
 .smalltxt1{
-  margin-top: 2em;
-  margin-left: 6.8em;
-  border: 1px solid black;
+  margin-top: 3em;
+  margin-left: 10em;
+  font-size: 20px;
+  color: rgb(97, 96, 96);
 }
 
 .smalltxt2{
-  margin-top: -3em;
-  border: 1px solid black;
+  margin-left: 5em;
+  margin-top: -2.5em;
+  font-size: 40px;
+  font-weight: lighter;
+  height: 50px;
 }
 
+/* --------------- IMAGE SECTION ------------ */
 
+.image-container{
+  margin-top: -16em;
+  height: 313px;
+}
 
+.imagetxt{
+  margin-left: 2.4em;
+  font-family: 'Inter';
+  color: rgb(69, 68, 68);
+  font-weight: 10vw;
+  height: 50px;
+  font-size: 35px;
+}
 
+.imageboxtxt{
+  display: flex;
+  margin-top: 2em;
+  margin-left: 5.2em;
+  height: 30px;
+}
 
+.roundetxt{
+  margin-right: 7em;
+  word-spacing: 10px;
+  height: 30px;
+  width: 180px;
+  font-size: 20px;
+  color: grey;
+}
+.circletxt{
+  margin-right: 5.5em;
+  word-spacing: 10px;
+  height: 30px;
+  width: 180px;
+  font-size: 20px;
+  color: grey;
+}
+.rounderaisedtxt{
+  margin-right: 7em;
+  word-spacing: 10px;
+  height: 30px;
+  width: 180px;
+  font-size: 20px;
+  color: grey;
+}
+.circleraisedtxt{
+  word-spacing: 10px;
+  height: 30px;
+  width: 180px;
+  font-size: 20px;
+  color: grey;
+}
 
+.imagebox{
+  display: flex;
+  margin-top: 1em;
+  margin-left: 5.1em;
+  height: 180px;
+}
 
+.rounderimage{
+  border-radius: 10%;
+  margin-right: 7em;
+  height: 180px;
+  width: 190px;
+}
 
+.circleimage{
+  border-radius: 100%;
+  margin-right: 7em;
+  height: 180px;
+  width: 190px;
+}
 
+.rounderaisedimage{
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 7em;
+  height: 180px;
+  width: 190px;
+}
 
+.circleraisedimage{
+  border-radius: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 180px;
+  width: 190px;
+}
 
+/* --------------------- javascript-container ---------------- */
 
+.javascript-container{
+  border: 1px solid red;
+  margin-top: 13em;
+  height: 500px;
+}
 
+.javascripttxt{
+  border: 1px solid black;
+  margin-left: 2.3em;
+  height: 50px;
+  font-size: 35px;
+  color: rgb(69, 68, 68);
+}
 
+.modal-popove-toplist{
+  border: 1px solid rgb(0, 183, 255);
+  display: flex;
+  height: 446px;
+}
 
+.modal{
+  border: 1px solid black;
+  margin-top: 4em;
+  margin-left: 5em;
+  margin-right: 7em;
+  height: 347px;
+  width: 400px;
+}
 
+.popovers-toplists{
+  border: 1px solid black;
+  margin-top: 4em;
+  height: 347px;
+  width: 600px;
+}
 
+.popovetxt{
+  border: 1px solid black;
+  font-size: 30px;
+  height: 40px;
+  color: rgb(69, 68, 68);
+}
 
+.popovebtns{
+  border: 1px solid red;
+  margin-top: 2em;
+  height: 60px;
+}
 
