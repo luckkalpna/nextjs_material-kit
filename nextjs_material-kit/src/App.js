@@ -1,8 +1,21 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
+import {FaCopy} from "react-icons/fa";
+
+
 
 function App() {
+
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
+  function closefunc(){
+      const element = document.getElementsByClassName("closefunc");
+  }
+
 	return (
 		<div className="App">
 			{/* ---------------------- header --------------------- */}
@@ -278,12 +291,15 @@ function App() {
 						<Navbar />
 						<div className="menuwithicon"></div>
 					</div>
+
+{/* ----------------- NOTIFIACATIONS ------------------ */}
+
 					<div className="notifications">
 						<p>Notifications</p>
 						<div className="alert">
 							<span
 								className="closebtn"
-								onclick="this.parentElement.style.display='none';"
+								onClick={closefunc}
 							>
 								&times;
 							</span>
@@ -330,7 +346,7 @@ function App() {
 						</div>
 					</div>
 
-{/* -------------------- typographycontainer --------------------- */}
+					{/* -------------------- typographycontainer --------------------- */}
 
 					<div className="typographycontainer">
 						Typography
@@ -435,43 +451,89 @@ function App() {
 						</div>
 					</div>
 
-{/* --------------------- image-container ------------------ */}
+					{/* --------------------- image-container ------------------ */}
 
-          <div className="image-container">
-            <div className="imagetxt">Images</div>
-            <div className="imageboxtxt">
-              <div className="roundetxt">Rounded Image</div>
-              <div className="circletxt">Circle Image</div>
-              <div className="rounderaisedtxt">Rounded Raised</div>
-              <div className="circleraisedtxt">Circle Raised</div>
-            </div>
-            <div className="imagebox">
-              <div className="rounderimage">
-                <img src="image/profiletype.jpg" alt="image" className="rounderimage"/>
-              </div>
-              <div className="circleimage">
-              <img src="image/profiletype.jpg" alt="image" className="circleimage"/>
-              </div>
-              <div className="rounderaisedimage">
-              <img src="image/profiletype.jpg" alt="image" className="rounderaisedimage"/>
-              </div>
-              <div className="circleraisedimage">
-              <img src="image/profiletype.jpg" alt="image" className="circleraisedimage"/>
-              </div>
-            </div>
-          </div>
+					<div className="image-container">
+						<div className="imagetxt">Images</div>
+						<div className="imageboxtxt">
+							<div className="roundetxt">Rounded Image</div>
+							<div className="circletxt">Circle Image</div>
+							<div className="rounderaisedtxt">Rounded Raised</div>
+							<div className="circleraisedtxt">Circle Raised</div>
+						</div>
+						<div className="imagebox">
+							<div className="rounderimage">
+								<img
+									src="image/profiletype.jpg"
+									alt="image"
+									className="rounderimage"
+								/>
+							</div>
+							<div className="circleimage">
+								<img
+									src="image/profiletype.jpg"
+									alt="image"
+									className="circleimage"
+								/>
+							</div>
+							<div className="rounderaisedimage">
+								<img
+									src="image/profiletype.jpg"
+									alt="image"
+									className="rounderaisedimage"
+								/>
+							</div>
+							<div className="circleraisedimage">
+								<img
+									src="image/profiletype.jpg"
+									alt="image"
+									className="circleraisedimage"
+								/>
+							</div>
+						</div>
+					</div>
 
-{/* ----------------- JavaScript Components ------------------- */}
-          <div className="javascript-container">
-            <div className="javascripttxt">Javascript components</div>
-            <div className="modal-popove-toplist">
-            <div className="modal"></div>
-            <div className="popovers-toplists">
-              <div className="popovetxt">Popovers</div>
-              <div className="popovebtns"></div>
-            </div>
-            </div>
-          </div>
+					{/* ----------------- JavaScript Components ------------------- */}
+					<div className="javascript-container">
+						<div className="javascripttxt">Javascript components</div>
+						<div className="modal-popove-toplist">
+							<div className="modal">
+                <div className="modaltxt">Modal
+                <div className="datetimepkr">Datetime Picker</div>
+                <div className="datetimepkr-light">Datetime Picker</div>
+                <form action="">
+                  <input type="dateandtime" className="dateandtime"/>
+                  <label  className="dateandtimelable">Datetime Pick Here</label>
+                </form>
+                </div>
+                <button className="modalbtntxt"><FaCopy className="icon"/>CLASSIC</button>
+              </div>
+							<div className="popovers-toplists">
+								<div className="popovetxt">Popovers</div>
+								<div className="popovebtns">
+                  <button className="pbtn1" onClick={myFunction}>ON LEFT</button>
+                  <button className="pbtn2">ON TOP</button>
+                  <button className="pbtn3">ON BOTTOM</button>
+                  <button className="pbtn4">ON RIGHT</button>
+                </div>
+                <div className="tooltiptxt">Tooltips</div>
+                <div className="tooltipbtns">
+                  <button className="tbtn1">ON LEFT
+                  <span className="tooltip-text">Tooltip text</span>
+                  </button>
+                  <button className="tbtn2">ON TOP
+                  <span className="tooltip-text">Tooltip text</span>
+                  </button>
+                  <button className="tbtn3">ON BOTTOM
+                  <span className="tooltip-text">Tooltip text</span>
+                  </button>
+                  <button className="tbtn4">ON RIGHT
+                  <span className="tooltip-text">Tooltip text</span>
+                  </button>
+                </div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

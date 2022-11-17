@@ -747,6 +747,7 @@ input:checked + .slidert:before {
   border: 1px solid black;
 }
 
+/* ------------------ BUDGES ------------------ */
 
 .budges{
   height: 150px;
@@ -1645,11 +1646,96 @@ input:checked + .slidert:before {
 
 .modal{
   border: 1px solid black;
-  margin-top: 4em;
+  margin-top: 5em;
   margin-left: 5em;
-  margin-right: 7em;
+  margin-right: 10em;
   height: 347px;
   width: 400px;
+}
+
+.modaltxt{
+  border: 1px solid red;
+  font-size: 28px;
+  font-weight: 300;
+  color: rgb(61, 60, 60);
+  height: 40px;
+}
+
+.modalbtntxt{
+  border: 1px solid #9c27b0;
+  border-radius: 3px;
+  background-color: #9c27b0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 1.5em;
+  height: 48px;
+  width: 150px;
+}
+
+.modalbtntxt:hover{
+  box-shadow: 0 1px 5px 0 #9c27b0;
+}
+
+.icon{
+  margin-top: .1em;
+  margin-right: .5em;
+}
+
+.datetimepkr{
+  border: 1px solid black;
+  margin-left: .5em;
+  margin-top: 3.5em;
+  font-size: 28px;
+  font-weight: 300;
+  color: rgb(61, 60, 60);
+}
+
+.datetimepkr-light{
+  border: 1px solid black;
+  margin-left: .9em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(199, 196, 196);
+}
+
+  input {
+  position: relative;
+  margin-left: 1em;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: grey;
+  border-bottom: 2px solid mediumvioletred;
+  outline: none;
+  background: white;
+}
+
+  label {
+  position: relative;
+  left: 0;
+  top: -60px;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: border 1px solid mediumvioletred;
+  transition: .5s;
+}
+
+  input:focus~label,
+            input:valid~label {
+            top: -85px;
+            left: 0;
+            color: grey;
+            font-size: 15px;
+        }
+
+.dateandtimelable{
+  border: 1px solid black;
 }
 
 .popovers-toplists{
@@ -1668,7 +1754,348 @@ input:checked + .slidert:before {
 
 .popovebtns{
   border: 1px solid red;
-  margin-top: 2em;
-  height: 60px;
+  margin-top: 1.5em;
+  height: 45px;
 }
+
+.pbtn1{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.pbtn1:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+}
+
+.pbtn2{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.pbtn2:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+}
+
+.pbtn3{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.pbtn3:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+}
+
+.pbtn4{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.pbtn4:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+}
+
+.tooltiptxt{
+  border: 1px solid black;
+  margin-top: 2em;
+  font-size: 30px;
+  height: 40px;
+  color: rgb(69, 68, 68);
+}
+
+.tooltipbtns{
+  border: 1px solid red;
+  margin-top: 1.5em;
+  height: 45px;
+}
+
+.tbtn1{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.tbtn1 .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tbtn1 .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tbtn1:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .tbtn1:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+} */
+
+.tbtn2{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.tbtn2 .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tbtn2 .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tbtn2:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .tbtn2:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+} */
+
+.tbtn3{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.tbtn3 .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tbtn3 .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tbtn3:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .tbtn3:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+} */
+
+.tbtn4{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(168, 168, 168);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin-right: .2em;
+  cursor: pointer;
+  height: 45px;
+  width: 120px;
+}
+
+.tbtn4 .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tbtn4 .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tbtn4:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* .tbtn4:hover{
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+} */
+
+
+
+/* Popup container - can be anything you want */
+/* .popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+/* The actual popup */
+/* .popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+} */
+
+/* Popup arrow */
+/* .popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+} */
+
+/* Toggle this class - hide and show the popup */
+/* .popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+} */
+
+/* Add animation (fade in the popup) */
+/* @-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+} */
 
