@@ -1,21 +1,18 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
-import {FaCopy} from "react-icons/fa";
-
-
+import {
+	FaCopy,
+	FaFacebookSquare,
+	FaGooglePlusG,
+	FaTwitter,
+  FaUserFriends,
+} from "react-icons/fa";
+import {
+	MdEmail, MdLock
+} from "react-icons/md";
 
 function App() {
-
-  function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-  }
-
-  function closefunc(){
-      const element = document.getElementsByClassName("closefunc");
-  }
-
 	return (
 		<div className="App">
 			{/* ---------------------- header --------------------- */}
@@ -226,11 +223,10 @@ function App() {
 						<div className="toggle">
 							Toggle Buttons <br />
 							<label className="switch toggle-txt">
-								{" "}
 								Toggle is on
 								<input type="checkbox" />
 								<span className="slidert round"></span>
-							</label>{" "}
+							</label>
 							<br />
 							<label className="switch toggle-txt">
 								Toggle is off
@@ -292,17 +288,12 @@ function App() {
 						<div className="menuwithicon"></div>
 					</div>
 
-{/* ----------------- NOTIFIACATIONS ------------------ */}
+					{/* ----------------- NOTIFIACATIONS ------------------ */}
 
 					<div className="notifications">
 						<p>Notifications</p>
 						<div className="alert">
-							<span
-								className="closebtn"
-								onClick={closefunc}
-							>
-								&times;
-							</span>
+							<span className="closebtn">&times;</span>
 							<bold>Danger!</bold>
 							<p className="closebtn">
 								Indicates a dangerous or potentially negative action.
@@ -498,42 +489,150 @@ function App() {
 						<div className="javascripttxt">Javascript components</div>
 						<div className="modal-popove-toplist">
 							<div className="modal">
-                <div className="modaltxt">Modal
-                <div className="datetimepkr">Datetime Picker</div>
-                <div className="datetimepkr-light">Datetime Picker</div>
-                <form action="">
-                  <input type="dateandtime" className="dateandtime"/>
-                  <label  className="dateandtimelable">Datetime Pick Here</label>
-                </form>
-                </div>
-                <button className="modalbtntxt"><FaCopy className="icon"/>CLASSIC</button>
-              </div>
+								<div className="modaltxt">
+									Modal
+									<div className="datetimepkr">Datetime Picker</div>
+									<div className="datetimepkr-light">Datetime Picker</div>
+									<div className="form-with-datetime">
+										<form action="">
+											<label htmlfor="fname" className="datetime">
+												Datetime Pick Here
+											</label>
+											<br />
+											<input type="date" id="fname" name="fname" />
+										</form>
+									</div>
+								</div>
+								<button className="modalbtntxt">
+									<FaCopy className="icon" />
+									CLASSIC
+								</button>
+							</div>
 							<div className="popovers-toplists">
 								<div className="popovetxt">Popovers</div>
 								<div className="popovebtns">
-                  <button className="pbtn1" onClick={myFunction}>ON LEFT</button>
-                  <button className="pbtn2">ON TOP</button>
-                  <button className="pbtn3">ON BOTTOM</button>
-                  <button className="pbtn4">ON RIGHT</button>
-                </div>
-                <div className="tooltiptxt">Tooltips</div>
-                <div className="tooltipbtns">
-                  <button className="tbtn1">ON LEFT
-                  <span className="tooltip-text">Tooltip text</span>
-                  </button>
-                  <button className="tbtn2">ON TOP
-                  <span className="tooltip-text">Tooltip text</span>
-                  </button>
-                  <button className="tbtn3">ON BOTTOM
-                  <span className="tooltip-text">Tooltip text</span>
-                  </button>
-                  <button className="tbtn4">ON RIGHT
-                  <span className="tooltip-text">Tooltip text</span>
-                  </button>
-                </div>
+									<button className="pbtn1">ON LEFT</button>
+									<button className="pbtn2">ON TOP</button>
+									<button className="pbtn3">ON BOTTOM</button>
+									<button className="pbtn4">ON RIGHT</button>
+								</div>
+								<div className="tooltiptxt">Tooltips</div>
+								<div className="tooltipbtns">
+									<button className="tbtn1">
+										ON LEFT
+										<span className="tooltip-text">Tooltip text</span>
+									</button>
+									<button className="tbtn2">
+										ON TOP
+										<span className="tooltip-text">Tooltip text</span>
+									</button>
+									<button className="tbtn3">
+										ON BOTTOM
+										<span className="tooltip-text">Tooltip text</span>
+									</button>
+									<button className="tbtn4">
+										ON RIGHT
+										<span className="tooltip-text">Tooltip text</span>
+									</button>
+								</div>
 							</div>
 						</div>
+
+						{/* -------------------------- Image Slider ------------------------ */}
+
+						<div className="carousel-box">
+							<div className="carousel-txt">Carousel</div>
+							<div className="carousel-image">
+								<button className="prev-btn">&#8249;</button>
+								<button className="next-btn">&#8250;</button>
+							</div>
+						</div>
+						<div className="simple-txt">
+							<div className="completed-txt">Completed with examples</div>
+							<div className="completed-small-txt">
+								The kit comes with three pre-built pages to help you get started
+								faster. You can change the text and images and you're good to
+								go. More importantly, looking at them will give you a picture of
+								what you can build with this powerful kit.
+							</div>
+						</div>
+
+            {/* ------------------ Big Image container ---------------- */}
+
+						<div className="last-image-container">
+							<div className="form-txt"></div>
+							<div className="last-form">
+								<div className="last-form-small-txt">Or Be Classical</div>
+								<form action="">
+									<div className="row1">
+                    <span className="last-input-icon1"><FaUserFriends/></span>
+										<input type="text" />
+										<label>First Name...</label>
+									</div>
+									<div className="row2">
+                  <span className="last-input-icon2"><MdEmail/></span>
+										<input type="e-mail" />
+										<label>Email...</label>
+									</div>
+									<div className="row3">
+                  <span className="last-input-icon3"><MdLock/></span>
+										<input type="password" />
+										<label>Password...</label>
+									</div>
+								</form>
+								<div className="login-txt">GET STARTED </div>
+							</div>
+							<div className="last-form-icon">
+								<div className="last-form-txt">Login</div>
+								<div className="icon-box">
+									<ul>
+										<li className="icon-box-li">
+											<a href="#">
+												<FaTwitter />
+											</a>
+										</li>
+										<li className="icon-box-li">
+											<a href="#">
+												<FaFacebookSquare />
+											</a>
+										</li>
+										<li className="icon-box-li">
+											<a href="#">
+												<FaGooglePlusG />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							{/* <img src="image/sign.jpg" alt="image" className="last-image-container"/> */}
+						</div>
+            <div className="link-page-txt">d
+                <ul className="link-page-txt"><a href="#" className="link-page-txt">VIEW LOGIN PAGE</a></ul>
+              </div>
+
+              {/* ---------------------- LANDING PAGES ----------------------   */}
+
+              <div className="landing-two-page">
+                <div className="landing-page"></div>
+                <img src="image/sign.jpg" className="landing-page1" alt="image" />
+                <div className="landing-page"></div>
+                <img src="image/sign.jpg" className="landing-page2" alt="image" />
+              </div>
+              <div className="landing-two-page-txt">
+                <div><a href="#" className="landing-two-page-txt1">VIEW LANDING PAGE</a></div>
+                <div><a href="#" className="landing-two-page-txt2">VIEW LANDING PAGE</a></div>
+              </div>
 					</div>
+          <div className="ending-txt">
+            <div className="love-txt">Do you love this UI Kit?</div>
+            <div className="love-txt-small">Cause if you do, it can be yours for FREE. Hit the buttons below to navigate to our website where you can find the kit. We also have the Bootstrap 4 version on plain HTML. Start a new project or give an old Bootstrap project a new look!</div>
+            <div className="box-btns">
+              <button className="box-btn1"><a href="#" className="box-btn-a1">FREE NEXTJS DOWNLOAD</a></button>
+              <button className="box-btn2"><a href="#" className="box-btn-a2">FREE REACT DOWNLOAD</a></button>
+            </div>
+            <div className="want-txt">Want more?</div>
+            <div className="want-txt-small">We've just launched <span className="want-txt-small-span">NextJS Material Kit PRO</span> .It has a huge number of components, sections and example pages. Start Your Development With A Badass Material-UI and NexJS Kit inspired by Material Design.</div> 
+          </div>
 				</div>
 			</div>
 		</div>

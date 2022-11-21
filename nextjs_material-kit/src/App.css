@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 1000vh;
+  height: 1500vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   margin-left: 1.5em;
   margin-top: -13em;
   width: 95vw;
-  height: 900vh;
+  height: 1400vh;
   background-color: white;
   border: 1px white;
   border-radius: 15px;
@@ -1625,13 +1625,11 @@ input:checked + .slidert:before {
 /* --------------------- javascript-container ---------------- */
 
 .javascript-container{
-  border: 1px solid red;
   margin-top: 13em;
   height: 500px;
 }
 
 .javascripttxt{
-  border: 1px solid black;
   margin-left: 2.3em;
   height: 50px;
   font-size: 35px;
@@ -1641,20 +1639,18 @@ input:checked + .slidert:before {
 .modal-popove-toplist{
   border: 1px solid rgb(0, 183, 255);
   display: flex;
-  height: 446px;
+  height: 405px;
 }
 
 .modal{
-  border: 1px solid black;
-  margin-top: 5em;
-  margin-left: 5em;
+  margin-top: 4em;
+  margin-left: 7em;
   margin-right: 10em;
-  height: 347px;
+  height: 340px;
   width: 400px;
 }
 
 .modaltxt{
-  border: 1px solid red;
   font-size: 28px;
   font-weight: 300;
   color: rgb(61, 60, 60);
@@ -1683,7 +1679,6 @@ input:checked + .slidert:before {
 }
 
 .datetimepkr{
-  border: 1px solid black;
   margin-left: .5em;
   margin-top: 3.5em;
   font-size: 28px;
@@ -1692,7 +1687,6 @@ input:checked + .slidert:before {
 }
 
 .datetimepkr-light{
-  border: 1px solid black;
   margin-left: .9em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -1701,47 +1695,25 @@ input:checked + .slidert:before {
   color: rgb(199, 196, 196);
 }
 
-  input {
-  position: relative;
-  margin-left: 1em;
+.datetime{
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(145, 144, 144);
+}
+
+.datetime, input[type=date] {
   width: 50%;
-  padding: 10px 0;
-  font-size: 16px;
-  color: black;
-  margin-bottom: 30px;
-  border: grey;
-  border-bottom: 2px solid mediumvioletred;
-  outline: none;
-  background: white;
-}
-
-  label {
-  position: relative;
-  left: 0;
-  top: -60px;
-  padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
-  pointer-events: border 1px solid mediumvioletred;
-  transition: .5s;
-}
-
-  input:focus~label,
-            input:valid~label {
-            top: -85px;
-            left: 0;
-            color: grey;
-            font-size: 15px;
-        }
-
-.dateandtimelable{
-  border: 1px solid black;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: none;
+  border: none;
+  border-bottom: 1px solid rgb(165, 164, 164);
 }
 
 .popovers-toplists{
   border: 1px solid black;
   margin-top: 4em;
-  height: 347px;
+  height: 340px;
   width: 600px;
 }
 
@@ -2098,4 +2070,439 @@ input:checked + .slidert:before {
   from {opacity: 0;}
   to {opacity:1 ;}
 } */
+
+/* ------------------ carousel-box ------------------- */
+
+.carousel-box{
+  border: 1px solid black;
+  height: 474px;
+}
+
+.carousel-txt{
+  border: 1px solid red;
+  margin-left: 3.5em;
+  height: 40px;
+  font-size: 28px;
+  font-family: 'Inter';
+  font-weight: lighter;
+  color: rgb(86, 86, 86);
+}
+
+.carousel-image{
+  border: 1px solid red;
+  border-radius: 2%;
+  margin-top: 5em;
+  margin-left: 20em;
+  height: 350px;
+  width: 650px;
+}
+
+.prev-btn, .next-btn{
+  margin-top: 12em;
+}
+
+.next-btn::after{
+  left: 10px;
+}
+
+.simple-txt{
+  border: 1px solid black;
+  margin-top: 12em;
+  height: 153px;
+
+}
+
+.completed-txt{
+  border: 1px solid red;
+  margin-left: 10.5em;
+  font-size: 40px;
+  font-weight: 300;
+  height: 55px;
+  width: 33.5%;
+}
+
+.completed-small-txt{
+  border: 1px solid red;
+  text-align: center;
+  margin-left: 11.5em;
+  margin-top: .5em;
+  color: grey;
+  font-size: 20px;
+  font-weight: 200;
+  height: 85px;
+  width: 800px;
+}
+
+/* --------------------- Big form and image ---------------- */
+
+.last-image-container{
+  border: 1px solid black;
+  margin-top: 2em;
+  height: 700px;
+  width: 100%;
+  position: center;
+  /* background-image: url("sign.jpg"); */
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.last-form{
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: aqua;
+  margin-left: 29.5em;
+  margin-top: 8em;
+  height: 450px;
+  width: 330px;
+}
+
+.last-form-small-txt{
+  margin-top: 9em;
+  margin-left: 8em;
+  color: grey;
+  font-size: 15px;
+}
+
+.row1{
+  margin-top: 3em;
+  position: relative;
+}
+.row1 input{
+  width: 90%;
+  margin-left: 1em;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.row1 label{
+  position: absolute;
+  top: 0;
+  left: .8em;
+  color: grey;
+  font-size: 16px;
+  font-weight: 300;
+  pointer-events: none;
+  transform: translateY(30px);
+  transition: all 400ms ease-in-out;
+}
+.row1 input:focus, .row1 input:valid{
+  border-bottom-color: mediumvioletred;
+}
+.row1 input:valid + label,
+.row1 input:focus + label{
+  color: mediumvioletred;
+  font-size: 16px;
+  transform: translateY(0);
+}
+
+.last-input-icon1{
+  position: absolute;
+  left: 10em;
+  top: -.3em;
+  color: grey;
+  font-size: 28px;
+}
+
+.row2{
+  margin-top: 3em;
+  position: relative;
+}
+.row2 input{
+  width: 90%;
+  margin-left: 1em;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.row2 label{
+  position: absolute;
+  top: 0;
+  left: .8em;
+  color: grey;
+  font-size: 16px;
+  font-weight: 300;
+  pointer-events: none;
+  transform: translateY(30px);
+  transition: all 400ms ease-in-out;
+}
+.row2 input:focus, .row1 input:valid{
+  border-bottom-color: mediumvioletred;
+}
+.row2 input:valid + label,
+.row2 input:focus + label{
+  color: mediumvioletred;
+  font-size: 16px;
+  transform: translateY(0);
+}
+
+.last-input-icon2{
+  position: absolute;
+  left: 10em;
+  top: -.3em;
+  color: grey;
+  font-size: 28px;
+}
+
+.row3{
+  margin-top: 3em;
+  position: relative;
+}
+.row3 input{
+  width: 90%;
+  margin-left: 1em;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.row3 label{
+  position: absolute;
+  top: 0;
+  left: .8em;
+  color: grey;
+  font-size: 16px;
+  font-weight: 300;
+  pointer-events: none;
+  transform: translateY(30px);
+  transition: all 400ms ease-in-out;
+}
+.row3 input:focus, .row1 input:valid{
+  border-bottom-color: mediumvioletred;
+}
+.row3 input:valid + label,
+.row3 input:focus + label{
+  color: mediumvioletred;
+  font-size: 16px;
+  transform: translateY(0);
+}
+
+.last-input-icon3{
+  position: absolute;
+  left: 10em;
+  top: -.3em;
+  color: grey;
+  font-size: 28px;
+}
+
+.login-txt{
+  margin-top: 2.8em;
+  font-size: 13px;
+  height: 17px;
+  margin-left: 10em;
+  cursor: pointer;
+  color: #9c27b0;
+}
+
+.form-box{
+  border: 1px solid red;
+  height: 200px;
+  margin-top: 12em;
+}
+
+.last-form-icon{
+  border: 1px solid mediumvioletred;
+  margin-left: 30.5em;
+  border-radius: 3px;
+  background-color: mediumvioletred;
+  box-shadow: 0 3px 8px 0  rgb(239, 107, 190);
+  margin-top: -31em;
+  height: 150px;
+  width: 300px;
+}
+
+.last-form-txt{
+  color: white;
+  margin-top: 1.8em;
+  margin-left: 6.1em;
+  font-size: 20px;
+  font-weight: 200;
+  height: 30px;
+  width: 50px;
+}
+
+.icon-box, ul, a{
+  color: white;
+  font-size: 30px;
+  display: flex;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.icon-box-li{
+  width: 100px;
+}
+
+/* .link-page-txt, ul, a{
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 12em;
+  margin-top: .5em;
+  color: #9c27b0;
+} */
+
+/* -------------------- landing-twopages-container ------------------ */
+
+.landing-two-page{
+  display: flex;
+  margin-top: -3em;
+  border: 1px solid red;
+  height: 382px;
+}
+
+.landing-page1{
+  border: 1px solid red;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+  margin-left: 1.8em;
+  margin-right: .5em;
+  height: 380px;
+  width: 47%;
+  border-radius: 3%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.landing-two-page-txt{
+  display: flex;
+  margin-top: 1.5em;
+  height: 20px;
+}
+
+.landing-two-page-txt1{
+  margin-left: 18em;
+  margin-right: 38em;
+  color: #9c27b0;
+  font-size: 14px;
+  font-weight: 450;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.landing-two-page-txt2{
+  color: #9c27b0;
+  font-size: 14px;
+  font-weight: 450;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.landing-page2{
+  border: 1px solid red;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px 0 rgb(168, 168, 168);
+  margin-left: 1.8em;
+  margin-right: 2em;
+  height: 380px;
+  width: 47%;
+  border-radius: 3%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* ------------------------ Ending-txt ---------------------- */
+
+.ending-txt{
+  border: 1px solid purple;
+  margin-top: 135em;
+  height: 800px;
+}
+
+.love-txt{
+  border: 1px solid red;
+  color: rgb(41, 41, 41);
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.love-txt-small{
+  border: 1px solid red;
+  margin-top: 1em;
+  margin-left: 14.7em;
+  width: 730px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(95, 95, 95);
+  text-align: center;
+}
+
+.box-btns{
+  border: 1px solid black;
+  display: flex;
+  margin-top: 1em;
+  height: 60px;
+}
+
+.box-btn1{
+  width: 235px;
+  margin-left: 30.5em;
+  margin-right: .2em;
+  background-color: #9c27b0;
+  box-shadow: 0 3px 8px 0 #b851ca;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.box-btn-a1{
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 2.2em;
+}
+
+.box-btn2{
+  width: 235px;
+  color: white;
+  background-color: #9c27b0;
+  box-shadow: 0 3px 8px 0 #b851ca;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.box-btn-a2{
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 2.2em;
+}
+
+.want-txt{
+  border: 1px solid red;
+  margin-top: 2em;
+  color: rgb(41, 41, 41);
+  font-size: 40px;
+  font-weight: 320;
+  text-align: center;
+}
+
+.want-txt-small{
+  border: 1px solid red;
+  margin-top: 1em;
+  margin-left: 14.7em;
+  width: 730px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(95, 95, 95);
+  text-align: center;
+}
+
+.want-txt-small-span{
+  font-size: 18px;
+  font-weight: 400;
+  color: #9c27b0;
+}
+
+
+
+
+
 
