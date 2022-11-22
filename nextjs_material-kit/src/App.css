@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 1500vh;
+  height: 1400vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -13,10 +13,11 @@
   margin-left: 1.5em;
   margin-top: -13em;
   width: 95vw;
-  height: 1400vh;
+  height: 1233.5vh;
   background-color: white;
+  box-shadow: 0 8px 15px 0 #5151519f;
   border: 1px white;
-  border-radius: 15px;
+  border-radius: 6px;
 }
 
 .text-box{
@@ -40,20 +41,21 @@
   color: white;
 }
 
+/* --------------------- BUTTONS SECTION ----------------------- */
+
 .section{
   margin-top: 6em;
   margin-left: 2em;
-  font-family: 'Inter';
+  color: rgb(60, 59, 59);
   font-size: 40px;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .btn{
   height: 10vh;
   margin-top: 2em;
   margin-left: 2.9em;
-  font-family: 'Inter';
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 30px;
 }
 
@@ -74,9 +76,12 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 2px;
+}
+.btn-default:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
 }
 
 .btn-round{
@@ -86,9 +91,12 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 50px;
+}
+.btn-round:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
 }
 
 .btn-icon{
@@ -102,9 +110,12 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 50px;
+}
+.btn-icon:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
 }
 
 .heart{
@@ -135,14 +146,16 @@
 
 .btn-symbol{
   margin-top: -.1em;
-  border: 1px solid mediumvioletred;
+  border: 1px solid #9c27b0;
   border-radius: 100%;
-  background-color: mediumvioletred;
+  background-color: #9c27b0;
   margin-right: .5em;
   width: 45px; 
   height: 43px;
 }
-  
+.btn-symbol:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
+}
 
 .symbol-heart{
   margin-left: .5em;
@@ -176,8 +189,8 @@
   height: 40px;
   width: 100px;
   border: none;
-  background-color: rgb(238, 232, 232);
-  color: mediumvioletred;
+  background-color: white;
+  color: #9c27b0;
   font-size: 12px;
   font-weight: bold;
   border-radius: 2px;
@@ -197,10 +210,14 @@
   color: white;
   font-size: 10px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 2px;
 }
+.btn-small:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
+}
+
 .btn-regular{
   height: 45px;
   width: 90px;
@@ -209,10 +226,14 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 2px;
 }
+.btn-regular:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
+}
+
 .btn-large{
   height: 60px;
   width: 100px;
@@ -221,9 +242,12 @@
   color: white;
   font-size: 13px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 2px;
+}
+.btn-large:hover{
+  box-shadow: 0 5px 5px #7c4c857e;
 }
 
 .btn-defaul{
@@ -251,13 +275,13 @@
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #9c27b0;
+  border: 1px solid #9c27b0;
   border-radius: 2px;
 }
 
 .btn-primary:hover{
-  box-shadow: 0 5px 10px 0 rgba(199, 21, 134, 0.466);
+  box-shadow: 0 5px 10px 0 rgba(128, 128, 128, 0.466);
 }
 
 .btn-info{
@@ -345,7 +369,7 @@
   box-shadow: 0 5px 10px 0 rgba(199, 21, 134, 0.466);
 }
 
-/* ------------ Input fields ---------- */
+/* ------------------------ Input fields ----------------------- */
 
 .input-txt{
   height: 173px;
@@ -517,7 +541,7 @@
   border: 1px solid black;
 }
 
-/* ------------- checkbox, radio button, toggle button ---------- */
+/* ------------------ checkbox, radio button, toggle button ------------- */
 
 .crt{
   color: rgb(28, 27, 27);
@@ -642,6 +666,7 @@ input:checked + .slidert:before {
   border-radius: 70%;
 }
 
+/* ------------------------- PROGRESSBAR AND PAGINATION ------------------------- */
 
 .progresspage{
   display: flex;
@@ -875,6 +900,8 @@ input:checked + .slidert:before {
   border-radius: 10px;
 }
 
+/* ------------------------ SMALL NOTIFICATIONS -------------------------- */
+
 .menu-icon{
   margin-top: 5em;
   border: 1px solid red;
@@ -958,7 +985,7 @@ input:checked + .slidert:before {
   display: block;
 }
 
-/* ------------- Notifications ------------ */
+/* --------------------------- NOTIFICATIONS -------------------------- */
 
 .notifications{
   height: 400px;
@@ -1043,7 +1070,7 @@ input:checked + .slidert:before {
   transition: 0.3s;
 }
 
-/* ----------------- typography ---------------- */
+/* -------------------------- TYPOGRAPHY CONTAINER ---------------------- */
 
 .typographycontainer{
   margin-top: 4em;
@@ -1531,7 +1558,7 @@ input:checked + .slidert:before {
   height: 50px;
 }
 
-/* --------------- IMAGE SECTION ------------ */
+/* ---------------------------- IMAGE CONTAINER --------------------------- */
 
 .image-container{
   margin-top: -16em;
@@ -1594,7 +1621,7 @@ input:checked + .slidert:before {
 }
 
 .rounderimage{
-  border-radius: 10%;
+  border-radius: 5%;
   margin-right: 7em;
   height: 180px;
   width: 190px;
@@ -1608,7 +1635,7 @@ input:checked + .slidert:before {
 }
 
 .rounderaisedimage{
-  border-radius: 10%;
+  border-radius: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-right: 7em;
   height: 180px;
@@ -1622,7 +1649,7 @@ input:checked + .slidert:before {
   width: 190px;
 }
 
-/* --------------------- javascript-container ---------------- */
+/* ------------------------ javascript-container ------------------- */
 
 .javascript-container{
   margin-top: 13em;
@@ -2071,7 +2098,7 @@ input:checked + .slidert:before {
   to {opacity:1 ;}
 } */
 
-/* ------------------ carousel-box ------------------- */
+/* ----------------------- IMAGE SLIDER ----------------------- */
 
 .carousel-box{
   border: 1px solid black;
@@ -2411,7 +2438,6 @@ input:checked + .slidert:before {
 }
 
 .love-txt{
-  border: 1px solid red;
   color: rgb(41, 41, 41);
   font-size: 40px;
   font-weight: 300;
@@ -2419,7 +2445,6 @@ input:checked + .slidert:before {
 }
 
 .love-txt-small{
-  border: 1px solid red;
   margin-top: 1em;
   margin-left: 14.7em;
   width: 730px;
@@ -2430,7 +2455,6 @@ input:checked + .slidert:before {
 }
 
 .box-btns{
-  border: 1px solid black;
   display: flex;
   margin-top: 1em;
   height: 60px;
@@ -2441,13 +2465,16 @@ input:checked + .slidert:before {
   margin-left: 30.5em;
   margin-right: .2em;
   background-color: #9c27b0;
-  box-shadow: 0 3px 8px 0 #b851ca;
   border: none;
   border-radius: 3px;
   color: white;
   font-size: 13px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.box-btn1:hover{
+  box-shadow: 0 3px 8px 0 #b851ca;
 }
 
 .box-btn-a1{
@@ -2460,13 +2487,16 @@ input:checked + .slidert:before {
   width: 235px;
   color: white;
   background-color: #9c27b0;
-  box-shadow: 0 3px 8px 0 #b851ca;
   border: none;
   border-radius: 3px;
   color: white;
   font-size: 13px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.box-btn2:hover{
+  box-shadow: 0 3px 8px 0 #b851ca;
 }
 
 .box-btn-a2{
@@ -2476,7 +2506,6 @@ input:checked + .slidert:before {
 }
 
 .want-txt{
-  border: 1px solid red;
   margin-top: 2em;
   color: rgb(41, 41, 41);
   font-size: 40px;
@@ -2485,7 +2514,6 @@ input:checked + .slidert:before {
 }
 
 .want-txt-small{
-  border: 1px solid red;
   margin-top: 1em;
   margin-left: 14.7em;
   width: 730px;
@@ -2501,8 +2529,259 @@ input:checked + .slidert:before {
   color: #9c27b0;
 }
 
+.last-box-btns{
+  display: flex;
+  margin-top: 1em;
+  height: 60px;
+}
 
+.last-box-btn1{
+  width: 235px;
+  margin-left: 30.5em;
+  margin-right: .2em;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
 
+.last-box-btn1:hover{
+  box-shadow: 0 3px 8px 0 #6f283f;
+}
 
+.last-box-btn-a1{
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 2.2em;
+}
 
+.last-box-btn2{
+  width: 235px;
+  color: white;
+  background-color: #e91e63;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
 
+.last-box-btn2:hover{
+box-shadow: 0 3px 8px 0 #6f283f;
+}
+
+.last-box-btn-a2{
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 2.2em;
+}
+
+.thank-txt{
+  margin-top: 4em;
+  height: 150px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 350;
+  color: rgb(71, 70, 70);
+}
+
+.thanks-btn-box{
+  margin-top: .5em;
+  height: 43px;
+  text-align: center;
+}
+
+.tweet-btn{
+  cursor: pointer;
+  background-color: #55acee;
+  border: 1px solid #55acee;
+  border-radius: 3.5%;
+  margin-left: 1em;
+  margin-right: .2em;
+  height: 43px;
+  width: 140px;
+}
+
+.tweet-btn:hover{
+  box-shadow: 0 3px 8px 0 #7cbae9;
+
+}
+
+.tweet-btn-txt{
+  margin-right: -5em;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tweet-btn-txt-icon{
+  color: white;
+  margin-left: -.5em;
+  margin-right: .2em;
+  margin-top: -.2em;
+  font-size: 19.5px;
+}
+
+.share-btn{
+  cursor: pointer;
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+  border-radius: 3.5%;
+  margin-right: .2em;
+  height:43px;
+  width: 140px;
+}
+
+.share-btn:hover{
+  box-shadow: 0 3px 8px 0 #6383c8;
+}
+
+.share-btn-txt{
+  margin-right: -5em;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.share-btn-txt-icon{
+  color: white;
+  margin-left: -.5em;
+  margin-right: .2em;
+  margin-top: -.2em;
+  font-size: 19.5px;
+}
+
+.star-btn{
+  cursor: pointer;
+  background-color: #333333;
+  border: 1px solid #333333;
+  border-radius: 3.5%;
+  height: 43px;
+  width: 140px;
+}
+
+.star-btn:hover{
+  box-shadow: 0 3px 8px 0 #515151;
+}
+
+.star-btn-txt{
+  margin-right: -5em;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.star-btn-txt-icon{
+  color: white;
+  margin-left: -.5em;
+  margin-right: .2em;
+  margin-top: -.2em;
+  font-size: 19.5px;
+}
+
+/* ------------------------ FOOTER PART ------------------------ */
+
+.footer-container{
+  border: 1px solid black;
+  display: flex;
+  margin-top: 3em;
+  height: 45px;
+}
+
+.footer1{
+  border: 1px solid red;
+  margin-left: 6em;
+  margin-right: .5em;
+  height: 43px;
+  width: 100px;
+}
+.footer-txt-1{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+  margin-left: -1em;
+  font-weight: 500;
+}
+
+.footer2{
+  border: 1px solid red;
+  margin-right: .5em;
+  height: 43px;
+  width: 80px;
+}
+.footer-txt-2{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+  margin-left: -1em;
+  font-weight: 500;
+}
+
+.footer3{
+  border: 1px solid red;
+  margin-right: .5em;
+  height: 43px;
+  width: 50px;
+}
+.footer-txt-3{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+  margin-left: -1em;
+  font-weight: 500;
+}
+
+.footer4{
+  border: 1px solid red;
+  margin-right: 27em;
+  height: 43px;
+  width: 70px;
+}
+.footer-txt-4{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+  margin-left: -1em;
+  font-weight: 500;
+}
+
+.footer5{
+  border: 1px solid red;
+  display: flex;
+  height: 43px;
+  width: 400px;
+}
+.footer-txt-5{
+  margin-top: -1em;
+  color: rgb(80, 79, 79);
+  font-size: 17px;
+  font-weight: lighter;
+}
+.footer-copyright-symbol{
+  margin-top: 1em;
+  margin-right: .2em;
+  color: rgb(80,79,79);
+  font-weight: light;
+}
+.footer-heart-symbol{
+  margin-top: 1.6em;
+  margin-left: .3em;
+  margin-right: .3em;
+  font-size: 18px;
+  color: rgb(80, 79, 79);
+}
+.footer-span-txt-5{
+  color: #9c27b0;
+  margin-left: .2em;
+  margin-right: .2em;
+}

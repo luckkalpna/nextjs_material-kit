@@ -4,13 +4,14 @@ import Navbar from "./Navbar";
 import {
 	FaCopy,
 	FaFacebookSquare,
+	FaGithub,
 	FaGooglePlusG,
+	FaHeart,
+	FaStar,
 	FaTwitter,
-  FaUserFriends,
+	FaUserFriends,
 } from "react-icons/fa";
-import {
-	MdEmail, MdLock
-} from "react-icons/md";
+import { MdEmail, MdLock, MdOutlineCopyAll, MdOutlineCopyright } from "react-icons/md";
 
 function App() {
 	return (
@@ -60,7 +61,7 @@ function App() {
 						<br />
 						<button className="btn-rose">ROSE</button>
 					</div>
-					{/* ---------------------------forms------------------------------ */}
+					{/* ------------------------INPUT FORM----------------------- */}
 					<p className="input-txt">
 						Inputs
 						<div className="simple-form">
@@ -116,7 +117,7 @@ function App() {
 							</div>
 						</div>
 					</p>
-					{/* ------------check box radio button toggle mode--------- */}
+					{/* ---------------------- check box radio button toggle mode ------------- */}
 					<div className="crt">
 						<div className="checkbox">
 							Checkboxes
@@ -235,7 +236,8 @@ function App() {
 							</label>
 						</div>
 					</div>
-					{/* ---------------progressbar & pagination------------- */}
+					{/* -------------------- progressbar & pagination ------------------- */}
+
 					<div className="progresspage">
 						<div className="progressbar">
 							Progress Bar
@@ -283,12 +285,15 @@ function App() {
 							</div>
 						</div>
 					</div>
+
+{/* -------------------------- SMALL NOTIFICATIONS -------------------------- */}
+
 					<div className="menu-icon">
 						<Navbar />
 						<div className="menuwithicon"></div>
 					</div>
 
-					{/* ----------------- NOTIFIACATIONS ------------------ */}
+					{/* -------------------------- NOTIFIACATIONS ------------------------- */}
 
 					<div className="notifications">
 						<p>Notifications</p>
@@ -337,7 +342,7 @@ function App() {
 						</div>
 					</div>
 
-					{/* -------------------- typographycontainer --------------------- */}
+					{/* ------------------------- typographycontainer ----------------------- */}
 
 					<div className="typographycontainer">
 						Typography
@@ -442,7 +447,7 @@ function App() {
 						</div>
 					</div>
 
-					{/* --------------------- image-container ------------------ */}
+					{/* -------------------------- IMAGE CONTAINER ------------------------- */}
 
 					<div className="image-container">
 						<div className="imagetxt">Images</div>
@@ -484,7 +489,8 @@ function App() {
 						</div>
 					</div>
 
-					{/* ----------------- JavaScript Components ------------------- */}
+					{/* ----------------------- JavaScript Components --------------------- */}
+
 					<div className="javascript-container">
 						<div className="javascripttxt">Javascript components</div>
 						<div className="modal-popove-toplist">
@@ -557,7 +563,7 @@ function App() {
 							</div>
 						</div>
 
-            {/* ------------------ Big Image container ---------------- */}
+						{/* ------------------ Big Image container ---------------- */}
 
 						<div className="last-image-container">
 							<div className="form-txt"></div>
@@ -565,17 +571,23 @@ function App() {
 								<div className="last-form-small-txt">Or Be Classical</div>
 								<form action="">
 									<div className="row1">
-                    <span className="last-input-icon1"><FaUserFriends/></span>
+										<span className="last-input-icon1">
+											<FaUserFriends />
+										</span>
 										<input type="text" />
 										<label>First Name...</label>
 									</div>
 									<div className="row2">
-                  <span className="last-input-icon2"><MdEmail/></span>
+										<span className="last-input-icon2">
+											<MdEmail />
+										</span>
 										<input type="e-mail" />
 										<label>Email...</label>
 									</div>
 									<div className="row3">
-                  <span className="last-input-icon3"><MdLock/></span>
+										<span className="last-input-icon3">
+											<MdLock />
+										</span>
 										<input type="password" />
 										<label>Password...</label>
 									</div>
@@ -606,34 +618,155 @@ function App() {
 							</div>
 							{/* <img src="image/sign.jpg" alt="image" className="last-image-container"/> */}
 						</div>
-            <div className="link-page-txt">d
-                <ul className="link-page-txt"><a href="#" className="link-page-txt">VIEW LOGIN PAGE</a></ul>
-              </div>
+						<div className="link-page-txt">
+							d
+							<ul className="link-page-txt">
+								<a href="#" className="link-page-txt">
+									VIEW LOGIN PAGE
+								</a>
+							</ul>
+						</div>
 
-              {/* ---------------------- LANDING PAGES ----------------------   */}
+						{/* ---------------------- LANDING TWO PAGES ----------------------   */}
 
-              <div className="landing-two-page">
-                <div className="landing-page"></div>
-                <img src="image/sign.jpg" className="landing-page1" alt="image" />
-                <div className="landing-page"></div>
-                <img src="image/sign.jpg" className="landing-page2" alt="image" />
-              </div>
-              <div className="landing-two-page-txt">
-                <div><a href="#" className="landing-two-page-txt1">VIEW LANDING PAGE</a></div>
-                <div><a href="#" className="landing-two-page-txt2">VIEW LANDING PAGE</a></div>
-              </div>
+						<div className="landing-two-page">
+							<div className="landing-page"></div>
+							<img src="image/sign.jpg" className="landing-page1" alt="image" />
+							<div className="landing-page"></div>
+							<img src="image/sign.jpg" className="landing-page2" alt="image" />
+						</div>
+						<div className="landing-two-page-txt">
+							<div>
+								<a href="#" className="landing-two-page-txt1">
+									VIEW LANDING PAGE
+								</a>
+							</div>
+							<div>
+								<a href="#" className="landing-two-page-txt2">
+									VIEW LANDING PAGE
+								</a>
+							</div>
+						</div>
 					</div>
-          <div className="ending-txt">
-            <div className="love-txt">Do you love this UI Kit?</div>
-            <div className="love-txt-small">Cause if you do, it can be yours for FREE. Hit the buttons below to navigate to our website where you can find the kit. We also have the Bootstrap 4 version on plain HTML. Start a new project or give an old Bootstrap project a new look!</div>
-            <div className="box-btns">
-              <button className="box-btn1"><a href="#" className="box-btn-a1">FREE NEXTJS DOWNLOAD</a></button>
-              <button className="box-btn2"><a href="#" className="box-btn-a2">FREE REACT DOWNLOAD</a></button>
+
+                {/* ------------------ ENDING TEXT ------------------- */}
+
+					<div className="ending-txt">
+						<div className="love-txt">Do you love this UI Kit?</div>
+						<div className="love-txt-small">
+							Cause if you do, it can be yours for FREE. Hit the buttons below
+							to navigate to our website where you can find the kit. We also
+							have the Bootstrap 4 version on plain HTML. Start a new project or
+							give an old Bootstrap project a new look!
+						</div>
+						<div className="box-btns">
+							<button className="box-btn1">
+								<a href="#" className="box-btn-a1">
+									FREE NEXTJS DOWNLOAD
+								</a>
+							</button>
+							<button className="box-btn2">
+								<a href="#" className="box-btn-a2">
+									FREE REACT DOWNLOAD
+								</a>
+							</button>
+						</div>
+						<div className="want-txt">Want more?</div>
+						<div className="want-txt-small">
+							We've just launched{" "}
+							<span className="want-txt-small-span">
+								NextJS Material Kit PRO
+							</span>{" "}
+							.It has a huge number of components, sections and example pages.
+							Start Your Development With A Badass Material-UI and NexJS Kit
+							inspired by Material Design.
+						</div>
+            <div className="last-box-btns">
+							<button className="last-box-btn1">
+								<a href="#" className="last-box-btn-a1">
+									NEXTJS MATERIAL KIT PRO
+								</a>
+							</button>
+							<button className="last-box-btn2">
+								<a href="#" className="last-box-btn-a2">
+									MATERIAL KIT PRO REACT
+								</a>
+							</button>
+						</div>
+            <div className="thank-txt">Thank you for supporting us!
+            <div className="thanks-btn-box">
+              <button className="tweet-btn">
+                <ul className="tweet-btn-txt">
+                  <li>
+										<a href="#" className="tweet-btn-txt">
+											<FaTwitter className="tweet-btn-txt-icon"/>TWEET
+											</a>
+									</li>
+                </ul>
+              </button>
+              <button className="share-btn">
+                <ul className="share-btn-txt">
+                  <li>
+										<a href="#" className="share-btn-txt">
+											<FaFacebookSquare className="share-btn-txt-icon"/>SHARE
+											</a>
+									</li>
+                </ul>
+              </button>
+              <button className="star-btn">
+                <ul className="star-btn-txt">
+                  <li>
+										<a href="#" className="star-btn-txt">
+											<FaGithub className="star-btn-txt-icon"/>STAR
+											</a>
+									</li>
+                </ul>
+              </button>
             </div>
-            <div className="want-txt">Want more?</div>
-            <div className="want-txt-small">We've just launched <span className="want-txt-small-span">NextJS Material Kit PRO</span> .It has a huge number of components, sections and example pages. Start Your Development With A Badass Material-UI and NexJS Kit inspired by Material Design.</div> 
-          </div>
+            </div>
+					</div>
 				</div>
+
+                  {/* ------------------ FOOTER PART ------------------ */}
+
+        <footer className="footer-container">
+          <div className="footer1">
+            <ul className="footer-txt-1">
+              <li>
+                <a href="#" className="footer-txt-1">CREATIVE TIM</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer2">
+            <ul className="footer-txt-2">
+              <li>
+                <a href="#" className="footer-txt-2">ABOUT US</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer3">
+            <ul className="footer-txt-3">
+              <li>
+                <a href="#" className="footer-txt-3">BLOG</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer4">
+            <ul className="footer-txt-4">
+              <li>
+                <a href="#" className="footer-txt-4">LICENSES</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer5">
+          <MdOutlineCopyright className="footer-copyright-symbol"/>
+            <div className="footer-txt-5">2022, made with
+            <FaHeart className="footer-heart-symbol"/>by
+            <span className="footer-span-txt-5">Creative Tim</span>for a better web.
+            </div>
+          </div>
+        </footer>
+
 			</div>
 		</div>
 	);
