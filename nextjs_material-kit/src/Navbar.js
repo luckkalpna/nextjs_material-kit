@@ -1,40 +1,44 @@
 import React from 'react';
 import './App.css';
-
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
+import { useState } from 'react';
+import { MdArrowDropDown } from 'react-icons/md';
 
 function Navbar() {
+
+const [isActive, setActive] = useState(false);
+
   return (
     <div>
       <nav>
       <div className="navbar">
-              <button className="btn-menu" href="https://demos.creative-tim.com/nextjs-material-kit/components">Menu</button>
-							<a href="#home">Home</a>
-							<a href="#news">News</a>
+              <button className='menu-btn'><a href="#" className='menu-btn'>Menu</a></button>
+							<a href="#" className='menu-btn-link1'>LINK</a>
+							<a href="#" className='menu-btn-link2'>LINK</a>
 							<div className="dropdown">
-								<button className="dropbtn" onclick="myFunction()">
-									Dropdown
-									<i className="fa fa-caret-down"></i>
+								<button className="dropdown-btn" onClick={(e) => setActive(!isActive)}>
+									DROPDOWN
+									<MdArrowDropDown className='dropdown-icon'/>
 								</button>
-								<div className="dropdown-content" id="myDropdown">
-									<a href="#">Link 1</a>
-									<a href="#">Link 2</a>
-									<a href="#">Link 3</a>
+								{isActive && (
+                  <div className="dropdown-content">
+                    <p className='dropdown-content-txt'>Dropdown Header</p>
+									<div className="dropdown-item">
+                  <a href="#" className="dropdown-item">Action</a>
+                  </div>
+									<div className="dropdown-item">
+                  <a href="#" className="dropdown-item">Another action</a>
+                  </div>
+									<div className="dropdown-item">
+                  <a href="#" className="dropdown-item">Something else here</a>
+                  </div> <hr />
+									<div className="dropdown-item">
+                  <a href="#" className="dropdown-item">Separated link</a>
+                  </div> <hr /> 
+									<div className="dropdown-item">
+                  <a href="#" className="dropdown-item">One more separated link</a>
+                  </div>
 								</div>
+                )}
 							</div>
 						</div>
             </nav>

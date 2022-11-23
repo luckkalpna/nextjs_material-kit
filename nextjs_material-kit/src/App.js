@@ -1,17 +1,10 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
-import {
-	FaCopy,
-	FaFacebookSquare,
-	FaGithub,
-	FaGooglePlusG,
-	FaHeart,
-	FaStar,
-	FaTwitter,
-	FaUserFriends,
+import {FaCopy, FaFacebookSquare, FaGithub, FaGooglePlusG, FaHeart, FaTwitter,  FaUserFriends,
 } from "react-icons/fa";
-import { MdEmail, MdLock, MdOutlineCopyAll, MdOutlineCopyright } from "react-icons/md";
+import {MdEmail, MdLock, MdOutlineCopyright,} from "react-icons/md";
+import Navbarwithicons from "./components/Navbarwithicons";
 
 function App() {
 	return (
@@ -286,11 +279,13 @@ function App() {
 						</div>
 					</div>
 
-{/* -------------------------- SMALL NOTIFICATIONS -------------------------- */}
+					{/* -------------------------- SMALL NOTIFICATIONS -------------------------- */}
 
 					<div className="menu-icon">
 						<Navbar />
-						<div className="menuwithicon"></div>
+						<div className="menuwithicon">
+              <Navbarwithicons />
+            </div>
 					</div>
 
 					{/* -------------------------- NOTIFIACATIONS ------------------------- */}
@@ -649,7 +644,7 @@ function App() {
 						</div>
 					</div>
 
-                {/* ------------------ ENDING TEXT ------------------- */}
+					{/* ------------------ ENDING TEXT ------------------- */}
 
 					<div className="ending-txt">
 						<div className="love-txt">Do you love this UI Kit?</div>
@@ -681,7 +676,7 @@ function App() {
 							Start Your Development With A Badass Material-UI and NexJS Kit
 							inspired by Material Design.
 						</div>
-            <div className="last-box-btns">
+						<div className="last-box-btns">
 							<button className="last-box-btn1">
 								<a href="#" className="last-box-btn-a1">
 									NEXTJS MATERIAL KIT PRO
@@ -693,80 +688,94 @@ function App() {
 								</a>
 							</button>
 						</div>
-            <div className="thank-txt">Thank you for supporting us!
-            <div className="thanks-btn-box">
-              <button className="tweet-btn">
-                <ul className="tweet-btn-txt">
-                  <li>
-										<a href="#" className="tweet-btn-txt">
-											<FaTwitter className="tweet-btn-txt-icon"/>TWEET
+						<div className="thank-txt">
+							Thank you for supporting us!
+							<div className="thanks-btn-box">
+								<button className="tweet-btn">
+									<ul className="tweet-btn-txt">
+										<li>
+											<a href="#" className="tweet-btn-txt">
+												<FaTwitter className="tweet-btn-txt-icon" />
+												TWEET
 											</a>
-									</li>
-                </ul>
-              </button>
-              <button className="share-btn">
-                <ul className="share-btn-txt">
-                  <li>
-										<a href="#" className="share-btn-txt">
-											<FaFacebookSquare className="share-btn-txt-icon"/>SHARE
+										</li>
+									</ul>
+								</button>
+								<button className="share-btn">
+									<ul className="share-btn-txt">
+										<li>
+											<a href="#" className="share-btn-txt">
+												<FaFacebookSquare className="share-btn-txt-icon" />
+												SHARE
 											</a>
-									</li>
-                </ul>
-              </button>
-              <button className="star-btn">
-                <ul className="star-btn-txt">
-                  <li>
-										<a href="#" className="star-btn-txt">
-											<FaGithub className="star-btn-txt-icon"/>STAR
+										</li>
+									</ul>
+								</button>
+								<button className="star-btn">
+									<ul className="star-btn-txt">
+										<li>
+											<a href="#" className="star-btn-txt">
+												<FaGithub className="star-btn-txt-icon" />
+												STAR
 											</a>
-									</li>
-                </ul>
-              </button>
-            </div>
-            </div>
+										</li>
+									</ul>
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 
-                  {/* ------------------ FOOTER PART ------------------ */}
+				{/* ------------------ FOOTER PART ------------------ */}
 
-        <footer className="footer-container">
-          <div className="footer1">
-            <ul className="footer-txt-1">
-              <li>
-                <a href="#" className="footer-txt-1">CREATIVE TIM</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer2">
-            <ul className="footer-txt-2">
-              <li>
-                <a href="#" className="footer-txt-2">ABOUT US</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer3">
-            <ul className="footer-txt-3">
-              <li>
-                <a href="#" className="footer-txt-3">BLOG</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer4">
-            <ul className="footer-txt-4">
-              <li>
-                <a href="#" className="footer-txt-4">LICENSES</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer5">
-          <MdOutlineCopyright className="footer-copyright-symbol"/>
-            <div className="footer-txt-5">2022, made with
-            <FaHeart className="footer-heart-symbol"/>by
-            <span className="footer-span-txt-5">Creative Tim</span>for a better web.
-            </div>
-          </div>
-        </footer>
-
+				<footer className="footer-container">
+					<div className="footer1">
+						<ul className="footer-txt-1">
+							<li>
+								<a href="#" className="footer-txt-1">
+									CREATIVE TIM
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div className="footer2">
+						<ul className="footer-txt-2">
+							<li>
+								<a href="#" className="footer-txt-2">
+									ABOUT US
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div className="footer3">
+						<ul className="footer-txt-3">
+							<li>
+								<a href="#" className="footer-txt-3">
+									BLOG
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div className="footer4">
+						<ul className="footer-txt-4">
+							<li>
+								<a href="#" className="footer-txt-4">
+									LICENSES
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div className="footer5">
+						<MdOutlineCopyright className="footer-copyright-symbol" />
+						<div className="footer-txt-5">
+							2022, made with
+							<FaHeart className="footer-heart-symbol" />
+							by
+							<span className="footer-span-txt-5">Creative Tim</span>for a
+							better web.
+						</div>
+					</div>
+				</footer>
 			</div>
 		</div>
 	);
