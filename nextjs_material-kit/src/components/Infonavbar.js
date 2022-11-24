@@ -9,13 +9,13 @@ return (
 						Info Color
 					</a>
 					<a href="#" className="discover-txt">
-						Discover
+						DISCOVER
 					</a>
 					<a href="#" className="profile-txt">
-						Profile
+						PROFILE
 					</a>
 					<a href="#" className="setting-txt">
-						Setting
+						SETTING
 					</a>
 				</button>
         </div>

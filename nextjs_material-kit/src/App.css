@@ -1216,7 +1216,7 @@ input:checked + .slidert:before {
   width: 7%;
 }
 .discover-txt{
-  margin-left: 48em;
+  margin-left: 49em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
   height: 35px;
@@ -1279,11 +1279,12 @@ input:checked + .slidert:before {
   width: 9%;
 }
 .primary-discover-txt{
-  margin-left: 40em;
+  letter-spacing: 10px;
+  margin-left: 44em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
   height: 35px;
-  width: 75px;
+  width: 93px;
   padding-left: 15px;
   padding-top: 16px;
   margin-top: 9px;
@@ -1295,10 +1296,13 @@ input:checked + .slidert:before {
   margin-top: 9px;
   text-decoration: none;
   font-size: 15.5px;
-  height: 35px;
+  height: 83px;
   width: 65px;
   padding-left: 17px;
   padding-top: 16px;
+}
+.primary-profile-icon{
+  font-size: 25px;
 }
 .primary-profile-txt:hover{
   background-color: rgba(255, 255, 255, 0.161);
@@ -1310,7 +1314,7 @@ input:checked + .slidert:before {
   text-decoration: none;
   font-size: 15.5px;
   height: 35px;
-  width: 65px;
+  width: 83px;
   padding-left: 17px;
   padding-top: 16px;
 }

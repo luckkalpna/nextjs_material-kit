@@ -12,7 +12,7 @@ return (
 						Primary Color
 					</a>
 					<a href="#" className="primary-discover-txt">
-            <FaCompass className='primary-discover-icon'/>
+            <FaCompass />
 						Discover
 					</a>
 					<a href="#" className="primary-profile-txt">
