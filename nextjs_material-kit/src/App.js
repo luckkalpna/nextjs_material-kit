@@ -1,10 +1,20 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
-import {FaCopy, FaFacebookSquare, FaGithub, FaGooglePlusG, FaHeart, FaTwitter,  FaUserFriends,
+import {
+	FaCopy,
+	FaFacebookSquare,
+	FaGithub,
+	FaGooglePlusG,
+	FaHeart,
+	FaTwitter,
+	FaUserFriends,
 } from "react-icons/fa";
-import {MdEmail, MdLock, MdOutlineCopyright,} from "react-icons/md";
+import { MdEmail, MdLock, MdOutlineCopyright } from "react-icons/md";
 import Navbarwithicons from "./components/Navbarwithicons";
+import Searchnavbar from "./components/Searchnavbar";
+import Infonavbar from "./components/Infonavbar";
+import Primarynavbar from "./components/Primarynavbar";
 
 function App() {
 	return (
@@ -282,11 +292,30 @@ function App() {
 					{/* -------------------------- SMALL NOTIFICATIONS -------------------------- */}
 
 					<div className="menu-icon">
+            <div className="menu-icon-txt">Menu
+            <div className="menuwithicon-txt">Menu with icons</div>
+            </div>
 						<Navbar />
 						<div className="menuwithicon">
-              <Navbarwithicons />
-            </div>
+							<Navbarwithicons />
+						</div>
 					</div>
+
+          {/* ----------------------- Navigation background image ------------------ */}
+
+          <div className="nav-image-container">Navigation</div>
+          <div className="nav-background-image">
+            <img src="./navigation-background-image.jpg" alt="image"  className="nav-background-image" />
+            <div className="search-nav-container">
+              <Searchnavbar />
+            </div>
+            <div className="nav-info-container">
+              <Infonavbar />
+            </div>
+            <div className="primary-info-container">
+              <Primarynavbar />
+            </div>
+          </div>
 
 					{/* -------------------------- NOTIFIACATIONS ------------------------- */}
 
