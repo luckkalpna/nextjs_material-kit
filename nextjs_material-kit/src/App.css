@@ -904,7 +904,6 @@ input:checked + .slidert:before {
 
 .menu-icon{
   margin-top: 5em;
-  border: 1px solid red;
   height: 140px;
 }
 .menu-icon-txt{
@@ -1100,7 +1099,6 @@ input:checked + .slidert:before {
 /* ----------------------- Navigation background image ------------------ */
 
 .nav-image-container{
-  border: 1px solid black;
   margin-top: 1em;
   color: rgb(102, 100, 100);
   font-weight: 350;
@@ -1204,6 +1202,7 @@ input:checked + .slidert:before {
   width: 100%;
   border: none;
   background-color: #00acc1;
+  box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
 }
 .info-btn-txt{
   margin-left: 5em;
@@ -1216,25 +1215,26 @@ input:checked + .slidert:before {
   width: 7%;
 }
 .discover-txt{
-  margin-left: 49em;
+  margin-left: 58em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
-  height: 35px;
+  height: 34px;
   width: 75px;
-  padding-left: 15px;
-  padding-top: 16px;
+  padding-left: 13px;
+  padding-top: 17px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 13px;
 }
 .profile-txt{
   margin-left: 1px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 13px;
   height: 35px;
   width: 65px;
-  padding-left: 17px;
+  padding-left: 15px;
+  padding-right: 7px;
   padding-top: 16px;
 }
 .profile-txt:hover{
@@ -1245,11 +1245,12 @@ input:checked + .slidert:before {
   margin-left: 1px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 13px;
   height: 35px;
   width: 65px;
-  padding-left: 17px;
-  padding-top: 16px;
+  padding-left: 15px;
+  padding-right: 8px;
+  padding-top: 17px;
 }
 .setting-txt:hover{
   background-color: rgba(255, 255, 255, 0.161);
@@ -1267,6 +1268,7 @@ input:checked + .slidert:before {
   width: 100%;
   border: none;
   background-color: #9c27b0;
+  box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
 }
 .primary-btn-txt{
   margin-left: 5em;
@@ -1279,8 +1281,7 @@ input:checked + .slidert:before {
   width: 9%;
 }
 .primary-discover-txt{
-  letter-spacing: 10px;
-  margin-left: 44em;
+  margin-left: 52.5em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
   height: 35px;
@@ -1289,20 +1290,20 @@ input:checked + .slidert:before {
   padding-top: 16px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 13px;
 }
 .primary-profile-txt{
   margin-left: 1px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
-  height: 83px;
-  width: 65px;
+  font-size: 13px;
+  height: 35px;
+  width: 84px;
   padding-left: 17px;
   padding-top: 16px;
 }
 .primary-profile-icon{
-  font-size: 25px;
+  font-size: 20px;
 }
 .primary-profile-txt:hover{
   background-color: rgba(255, 255, 255, 0.161);
@@ -1312,7 +1313,7 @@ input:checked + .slidert:before {
   margin-left: 1px;
   margin-top: 9px;
   text-decoration: none;
-  font-size: 15.5px;
+  font-size: 13px;
   height: 35px;
   width: 83px;
   padding-left: 17px;
@@ -1321,6 +1322,157 @@ input:checked + .slidert:before {
 .primary-setting-txt:hover{
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
+}
+
+.notification-nav-container{
+  display: flex;
+  width: 1300px;
+  height: 95px;
+}
+.notification-txt{
+  margin-top: 2em;
+  display: flex;
+  width: 100%;
+  border: none;
+  background-color: #212121;
+  box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
+}
+.notification-btn-txt{
+  margin-left: 5em;
+  padding-left: 15px;
+  margin-top: 21px;
+  background-color: #212121;
+  text-decoration: none;
+  font-size: 18.5px;
+  font-weight: 300;
+  width: 18%;
+}
+.notification-discover-txt{
+  margin-left: 46em;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-top: 16px;
+  margin-top: 9px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.notification-wishlist-txt{
+  margin-left: 1px;
+  margin-top: 9px;
+  text-decoration: none;
+  font-size: 13px;
+  height: 35px;
+  width: 84px;
+  padding-left: 17px;
+  padding-top: 16px;
+}
+.notification-setting-txt{
+  background-color: #e91e63;
+  border-radius: 100%;
+  margin-top: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.nav-profile{
+  margin-top: .5em;
+  margin-left: .2em;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+
+/* .profile-nav-container{
+  border: 1px solid red;
+  background-color: white;
+} */
+
+
+.transparent-btn-txt{
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 5.3em;
+  margin-top: 10px;
+}
+.transparent-txt{
+  display: flex;
+  text-decoration: none;
+  margin-top: 3em;
+  font-size: 13px;
+}
+.transparent-twitter-txt{
+  height: 30px;
+  width: 100px;
+  padding-top: 15px;
+  padding-left: 11px;
+  margin-left: 46.5em;
+  margin-right: .5em;
+  text-decoration: none;
+  font-size: 13px;
+}
+.transparent-twitter-txt:hover{
+  background-color: rgba(255, 255, 255, 0.161);
+  border-radius: 3px;
+}
+.transparent-twitter-icon{
+  margin-top: -6px;
+  font-size: 25px;
+  margin-right: .1em;
+}
+.transparent-facebook-txt{
+  height: 30px;
+  width: 110px;
+  padding-top: 15px;
+  padding-left: 11px;
+  margin-left: 1em;
+  margin-right: .5em;
+  text-decoration: none;
+  font-size: 13px;
+}
+.transparent-facebook-txt:hover{
+  background-color: rgba(255, 255, 255, 0.161);
+  border-radius: 3px;
+}
+.transparent-facebook-icon{
+  margin-top: -6px;
+  font-size: 25px;
+  margin-right: .1em;
+}
+.transparent-instagram-txt{
+  height: 30px;
+  width: 118px;
+  padding-top: 15px;
+  padding-left: 11px;
+  margin-left: 1em;
+  text-decoration: none;
+  font-size: 13px;
+}
+.transparent-instagram-txt:hover{
+  background-color: rgba(255, 255, 255, 0.161);
+  border-radius: 3px;
+}
+.transparent-instagram-icon{
+  margin-top: -6px;
+  font-size: 25px;
+  margin-right: .1em;
+}
+
+/* --------------------------- NAVIGATION TABS ------------------------ */
+
+.navigation-tabs-container{
+  background-color: rgba(234, 230, 230, 0.64);
+  margin-top: 3em;
+  height: 500px;
+}
+.navigation-tabs-txt{
+  border: 1px solid red;
+  color: rgb(102, 100, 100);
+  font-weight: 350;
+  margin-left: 3.5em;
+  font-size: 28px;
 }
 
 

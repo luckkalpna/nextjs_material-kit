@@ -15,6 +15,9 @@ import Navbarwithicons from "./components/Navbarwithicons";
 import Searchnavbar from "./components/Searchnavbar";
 import Infonavbar from "./components/Infonavbar";
 import Primarynavbar from "./components/Primarynavbar";
+import Navbarwithnotification from "./components/Navbarwithnotification";
+import Transparentnavbar from "./components/Transparentnavbar";
+// import Navbarwithprofile from "./components/Navbarwithprofile";
 
 function App() {
 	return (
@@ -259,7 +262,11 @@ function App() {
 								<div className="prg3lgh"></div>
 							</div>
 						</div>
-						<div className="pagination">Pagination</div>
+
+
+            {/* ---------------------- Pagination ----------------------- */}
+
+						<div className="pagination-container">Pagination</div>
 					</div>
 					<div className="slider-budges">
 						<div className="box">
@@ -275,6 +282,9 @@ function App() {
 								/>
 							</div>
 						</div>
+
+              {/* ---------------------- Budges ------------------------ */}
+
 						<div className="budges">
 							Budges
 							<div className="budges-box">
@@ -292,29 +302,44 @@ function App() {
 					{/* -------------------------- SMALL NOTIFICATIONS -------------------------- */}
 
 					<div className="menu-icon">
-            <div className="menu-icon-txt">Menu
-            <div className="menuwithicon-txt">Menu with icons</div>
-            </div>
+						<div className="menu-icon-txt">Menu
+							<div className="menuwithicon-txt">Menu with icons</div>
+						</div>
 						<Navbar />
 						<div className="menuwithicon">
 							<Navbarwithicons />
 						</div>
 					</div>
 
-          {/* ----------------------- Navigation background image ------------------ */}
+					{/* ----------------------- Navigation background image ------------------ */}
 
-          <div className="nav-image-container">Navigation</div>
-          <div className="nav-background-image">
-            <img src="./navigation-background-image.jpg" alt="image"  className="nav-background-image" />
-            <div className="search-nav-container">
-              <Searchnavbar />
+					<div className="nav-image-container">Navigation</div>
+					<div className="nav-background-image">
+						<img src="./navigation-background-image.jpg" alt="image" className="nav-background-image" />
+						<div className="search-nav-container">
+							<Searchnavbar />
+						</div>
+						<div className="nav-info-container">
+							<Infonavbar />
+						</div>
+						<div className="primary-info-container">
+							<Primarynavbar />
+						</div>
+            <div className="notification-nav-container">
+              <Navbarwithnotification />
             </div>
-            <div className="nav-info-container">
-              <Infonavbar />
+            <div className="profile-navbar-container">
+            {/* <Navbarwithprofile/> */}
             </div>
-            <div className="primary-info-container">
-              <Primarynavbar />
+            <div className="transparentnav-container">
+              <Transparentnavbar/>
             </div>
+					</div>
+
+          {/* -------------------------- NAVIGATION TABS ------------------------ */}
+
+          <div className="navigation-tabs-container">
+            <div className="navigation-tabs-txt">Navigation Tabs</div>
           </div>
 
 					{/* -------------------------- NOTIFIACATIONS ------------------------- */}
@@ -330,9 +355,7 @@ function App() {
 						</div>
 						<div className="success">
 							<span
-								className="closebtn"
-								onclick="this.parentElement.style.display='none';"
-							>
+								className="closebtn">
 								&times;
 							</span>
 							<bold>Danger!</bold>
@@ -342,9 +365,7 @@ function App() {
 						</div>
 						<div className="info">
 							<span
-								className="closebtn"
-								onclick="this.parentElement.style.display='none';"
-							>
+								className="closebtn">
 								&times;
 							</span>
 							<bold>Danger!</bold>
@@ -354,9 +375,7 @@ function App() {
 						</div>
 						<div className="warning">
 							<span
-								className="closebtn"
-								onclick="this.parentElement.style.display='none';"
-							>
+								className="closebtn">
 								&times;
 							</span>
 							<bold>Danger!</bold>

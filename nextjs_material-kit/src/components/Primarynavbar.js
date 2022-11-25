@@ -4,29 +4,29 @@ import { HiUserCircle } from "react-icons/hi";
 import { MdSettings } from 'react-icons/md';
 
 function Primarynavbar() {
-return (
-    <div>
-      <div className="primary-nav-container">
-        <button className="primary-txt">
+	return (
+		<div>
+			<div className="primary-nav-container">
+				<button className="primary-txt">
 					<a href="#" className="primary-btn-txt">
 						Primary Color
 					</a>
 					<a href="#" className="primary-discover-txt">
-            <FaCompass />
-						Discover
+						<FaCompass />
+						DISCOVER
 					</a>
 					<a href="#" className="primary-profile-txt">
-            <HiUserCircle className='primary-profile-icon'/>
-						Profile
+						<HiUserCircle className='primary-profile-icon' />
+						PROFILE
 					</a>
 					<a href="#" className="primary-setting-txt">
-            <MdSettings className='primary-setting-icon'/>
-						Setting
+						<MdSettings className='primary-setting-icon' />
+						SETTING
 					</a>
 				</button>
-        </div>
-    </div>
-)
+			</div>
+		</div>
+	)
 }
 
 export default Primarynavbar
