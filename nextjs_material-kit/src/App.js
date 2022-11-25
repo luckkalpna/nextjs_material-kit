@@ -340,6 +340,10 @@ function App() {
 
           <div className="navigation-tabs-container">
             <div className="navigation-tabs-txt">Navigation Tabs</div>
+            <div className="tab-cards">
+              <div className="tabcard-with-icon">Tabs with Icons on Card</div>
+              <div className="tabcard-with-txt">Tabs on Plain Card</div>
+            </div>
           </div>
 
 					{/* -------------------------- NOTIFIACATIONS ------------------------- */}
@@ -609,6 +613,7 @@ function App() {
 						{/* ------------------ Big Image container ---------------- */}
 
 						<div className="last-image-container">
+              {/* <img src="image/sign.jpg" alt="image" /> */}
 							<div className="form-txt"></div>
 							<div className="last-form">
 								<div className="last-form-small-txt">Or Be Classical</div>

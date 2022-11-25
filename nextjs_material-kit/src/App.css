@@ -1465,14 +1465,32 @@ input:checked + .slidert:before {
 .navigation-tabs-container{
   background-color: rgba(234, 230, 230, 0.64);
   margin-top: 3em;
-  height: 500px;
+  height: 550px;
 }
 .navigation-tabs-txt{
   border: 1px solid red;
+  padding-top: 80px;
   color: rgb(102, 100, 100);
   font-weight: 350;
   margin-left: 3.5em;
   font-size: 28px;
+}
+.tab-cards{
+  border: 1px solid black;
+  margin-top: 3em;
+  display: flex;
+}
+.tabcard-with-icon{
+  border: 1px solid red;
+  margin-left: 4.7em;
+  font-size: 21px;
+  color: grey;
+}
+.tabcard-with-txt{
+  border: 1px solid red;
+  margin-left: 17em;
+  font-size: 21px;
+  color: grey;
 }
 
 
@@ -2667,7 +2685,7 @@ input:checked + .slidert:before {
 .last-form{
   border: 1px solid black;
   border-radius: 7px;
-  background-color: aqua;
+  background-color: white;
   margin-left: 29.5em;
   margin-top: 8em;
   height: 450px;
@@ -2705,11 +2723,11 @@ input:checked + .slidert:before {
   transition: all 400ms ease-in-out;
 }
 .row1 input:focus, .row1 input:valid{
-  border-bottom-color: mediumvioletred;
+  border-bottom-color: #9c27b0;
 }
 .row1 input:valid + label,
 .row1 input:focus + label{
-  color: mediumvioletred;
+  color: #9c27b0;
   font-size: 16px;
   transform: translateY(0);
 }
@@ -2746,11 +2764,11 @@ input:checked + .slidert:before {
   transition: all 400ms ease-in-out;
 }
 .row2 input:focus, .row1 input:valid{
-  border-bottom-color: mediumvioletred;
+  border-bottom-color: #9c27b0;
 }
 .row2 input:valid + label,
 .row2 input:focus + label{
-  color: mediumvioletred;
+  color: #9c27b0;
   font-size: 16px;
   transform: translateY(0);
 }
@@ -2787,11 +2805,11 @@ input:checked + .slidert:before {
   transition: all 400ms ease-in-out;
 }
 .row3 input:focus, .row1 input:valid{
-  border-bottom-color: mediumvioletred;
+  border-bottom-color: #9c27b0;
 }
 .row3 input:valid + label,
 .row3 input:focus + label{
-  color: mediumvioletred;
+  color: #9c27b0;
   font-size: 16px;
   transform: translateY(0);
 }
@@ -2820,11 +2838,11 @@ input:checked + .slidert:before {
 }
 
 .last-form-icon{
-  border: 1px solid mediumvioletred;
+  border: 1px solid #9c27b0;
   margin-left: 30.5em;
   border-radius: 3px;
-  background-color: mediumvioletred;
-  box-shadow: 0 3px 8px 0  rgb(239, 107, 190);
+  background-color: #9c27b0;
+  box-shadow: 0 3px 8px 0 #c35ed4;
   margin-top: -31em;
   height: 150px;
   width: 300px;
@@ -3183,14 +3201,12 @@ box-shadow: 0 3px 8px 0 #6f283f;
 /* ------------------------ FOOTER PART ------------------------ */
 
 .footer-container{
-  border: 1px solid black;
   display: flex;
   margin-top: 3em;
   height: 45px;
 }
 
 .footer1{
-  border: 1px solid red;
   margin-left: 6em;
   margin-right: .5em;
   height: 43px;
@@ -3205,7 +3221,6 @@ box-shadow: 0 3px 8px 0 #6f283f;
 }
 
 .footer2{
-  border: 1px solid red;
   margin-right: .5em;
   height: 43px;
   width: 80px;
@@ -3219,7 +3234,6 @@ box-shadow: 0 3px 8px 0 #6f283f;
 }
 
 .footer3{
-  border: 1px solid red;
   margin-right: .5em;
   height: 43px;
   width: 50px;
@@ -3233,7 +3247,6 @@ box-shadow: 0 3px 8px 0 #6f283f;
 }
 
 .footer4{
-  border: 1px solid red;
   margin-right: 27em;
   height: 43px;
   width: 70px;
@@ -3247,7 +3260,6 @@ box-shadow: 0 3px 8px 0 #6f283f;
 }
 
 .footer5{
-  border: 1px solid red;
   display: flex;
   height: 43px;
   width: 400px;
