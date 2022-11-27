@@ -19,7 +19,8 @@ import Navbarwithnotification from "./components/Navbarwithnotification";
 import Transparentnavbar from "./components/Transparentnavbar";
 import Tabcardwithicon from "./components/Tabcardwithicon";
 import Tabplanecard from "./components/Tabplanecard";
-// import Navigationpillwithicon from "./components/Navigationpillwithicon";
+import Horizontalpillnav from "./components/Horizontalpillnav";
+import Verticalpill from "./components/Verticalpill";
 // import Navbarwithprofile from "./components/Navbarwithprofile";
 
 function App() {
@@ -358,8 +359,14 @@ function App() {
           <div className="navigation-pills-container">
             <div className="navigationpill-txt">Navigation Pills</div>
             <div className="navigationpill-card-txt">With Icons</div>
-
-            {/* <Navigationpillwithicon /> */}
+            <div className="both-pills">
+              <div className="horizontal-pill">
+                <Horizontalpillnav />
+              </div>
+              <div className="vertical-pill">
+                <Verticalpill />
+              </div>
+            </div>
           </div>
 
           {/* -------------------------- NOTIFIACATIONS ------------------------- */}

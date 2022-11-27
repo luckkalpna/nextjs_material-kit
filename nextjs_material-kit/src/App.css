@@ -1705,7 +1705,7 @@ input:checked + .slidert:before {
 
 .navigation-pills-container{
   border: 1px solid red;
-  height: 650px;
+  height: 750px;
 }
 .navigationpill-txt{
   border: 1px solid black;
@@ -1720,10 +1720,160 @@ input:checked + .slidert:before {
   margin-top: 2em;
   color: grey;
   font-weight: 450;
-  margin-left: 3.5em;
+  margin-left: 4.5em;
   font-size: 23px;
 }
+.both-pills{
+  border: 1px solid black;
+  display: flex;
+  margin-top: 3.5em;
+  height: 485px;
+}
+.horizontal-pill{
+  border: 1px solid red;
+  margin-left: 6.4em;
+  width: 620px;
+}
+.vertical-pill{
+  margin-left: .8em;
+  border: 1px solid aqua;
+  display: flex;
+  width: 620px;
+}
+.horizontal-pill-nav{
+  border: 1px solid black;
+  display: flex;
+  height: 120px;
+}
+.dashboard-txt{
+  color: white;
+  background-color: #9c27b0;
+  width: 125px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dashboard-icon{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.schedule-txt{
+  color: rgb(59, 58, 58);
+  background-color: white;
+  margin-left: .8em;
+  width: 125px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.schedule-icon{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.task-txt{
+  color: rgb(59, 58, 58);
+  background-color: white;
+  margin-left: .8em;
+  width: 120px;
+  text-align: center;
+  padding-right: 24.5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.task-icon{
+  font-size: 30px;
+  padding-left: 10px;
+  padding-bottom: 17px;
+}
+.dashboard-content{
+  border: 1px solid red;
+  color: rgb(99, 97, 97);
+  margin-top: 1em;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+}
+.schedule-content{
+  border: 1px solid red;
+  color: rgb(99, 97, 97);
+  margin-top: 1em;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+}
+.task-content{
+  border: 1px solid red;
+  color: rgb(99, 97, 97);
+  margin-top: 1em;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+}
 
+.vertical-pill-nav{
+  border: 1px solid black;
+  height: 440px;
+  width: 130px;
+}
+.vertical-dashboard-txt{
+  color: white;
+  background-color: #e91e63;
+  width: 160px;
+  height: 120px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.vertical-dashboard-icon{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.vertical-schedule-txt{
+  color: rgb(59, 58, 58);
+  margin-top: 1em;
+  width: 158px;
+  height: 120px;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.vertical-schedule-icon{
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+.vertical-dashboard-content{
+  border: 1px solid red;
+  color: rgb(99, 97, 97);
+  width: 435px;
+  margin-left: 10.5em;
+  margin-top: -26em;
+  text-align: left;
+  font-size: 17px;
+  line-height: 29px;
+}
+.vertical-schedule-content{
+  border: 1px solid red;
+  color: rgb(99, 97, 97);
+  margin-top: 1em;
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+}
 
 /* --------------------------- NOTIFICATIONS -------------------------- */
 
