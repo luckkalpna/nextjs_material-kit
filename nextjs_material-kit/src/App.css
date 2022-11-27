@@ -1018,7 +1018,7 @@ input:checked + .slidert:before {
   background-color: #00acc1;
   box-shadow: 0 5px 10px 0 #00abc162;
   border-radius: 3px;
-  margin-left: 41.5em;
+  margin-left: 45em;
   margin-top: -70px;
   height: 70px;
   width: 42%;
@@ -1112,7 +1112,7 @@ input:checked + .slidert:before {
 }
 .search-nav-container{
   display: flex;
-  width: 1300px;
+  width: 1442px;
   height: 70px;
   background-color: #e91e63;
   box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
@@ -1144,7 +1144,7 @@ input:checked + .slidert:before {
 .search-container{
   width: 30%;
   display: flex;
-  margin-left: 40em;
+  margin-left: 49em;
 }
 .search-bar{
   margin-top: 1.5em;
@@ -1199,7 +1199,7 @@ input:checked + .slidert:before {
 }
 .info-txt{
   display: flex;
-  width: 100%;
+  width: 180%;
   border: none;
   background-color: #00acc1;
   box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
@@ -1212,10 +1212,10 @@ input:checked + .slidert:before {
   text-decoration: none;
   font-size: 18.5px;
   font-weight: 300;
-  width: 7%;
+  width: 100px;
 }
 .discover-txt{
-  margin-left: 58em;
+  margin-left: 68em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
   height: 34px;
@@ -1249,7 +1249,7 @@ input:checked + .slidert:before {
   height: 35px;
   width: 65px;
   padding-left: 15px;
-  padding-right: 8px;
+  padding-right: 82px;
   padding-top: 17px;
 }
 .setting-txt:hover{
@@ -1265,7 +1265,7 @@ input:checked + .slidert:before {
 .primary-txt{
   margin-top: 2em;
   display: flex;
-  width: 100%;
+  width: 150%;
   border: none;
   background-color: #9c27b0;
   box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
@@ -1278,10 +1278,10 @@ input:checked + .slidert:before {
   text-decoration: none;
   font-size: 18.5px;
   font-weight: 300;
-  width: 9%;
+  width: 120px;
 }
 .primary-discover-txt{
-  margin-left: 52.5em;
+  margin-left: 63em;
   background-color: rgba(255, 255, 255, 0.161);
   border-radius: 3px;
   height: 35px;
@@ -1317,6 +1317,7 @@ input:checked + .slidert:before {
   height: 35px;
   width: 83px;
   padding-left: 17px;
+  padding-right: 74px;
   padding-top: 16px;
 }
 .primary-setting-txt:hover{
@@ -1326,29 +1327,29 @@ input:checked + .slidert:before {
 
 .notification-nav-container{
   display: flex;
-  width: 1300px;
+  width: 1520px;
   height: 95px;
 }
 .notification-txt{
   margin-top: 2em;
   display: flex;
-  width: 100%;
+  width: 1440px;
   border: none;
   background-color: #212121;
   box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
 }
 .notification-btn-txt{
-  margin-left: 5em;
+  margin-left: 4.6em;
   padding-left: 15px;
   margin-top: 21px;
   background-color: #212121;
   text-decoration: none;
   font-size: 18.5px;
   font-weight: 300;
-  width: 18%;
+  width: 500px;
 }
 .notification-discover-txt{
-  margin-left: 46em;
+  margin-left: 37em;
   border-radius: 3px;
   padding-left: 15px;
   padding-top: 16px;
@@ -1408,7 +1409,7 @@ input:checked + .slidert:before {
   width: 100px;
   padding-top: 15px;
   padding-left: 11px;
-  margin-left: 46.5em;
+  margin-left: 57.5em;
   margin-right: .5em;
   text-decoration: none;
   font-size: 13px;
@@ -1465,10 +1466,9 @@ input:checked + .slidert:before {
 .navigation-tabs-container{
   background-color: rgba(234, 230, 230, 0.64);
   margin-top: 3em;
-  height: 550px;
+  height: 560px;
 }
 .navigation-tabs-txt{
-  border: 1px solid red;
   padding-top: 80px;
   color: rgb(102, 100, 100);
   font-weight: 350;
@@ -1476,19 +1476,16 @@ input:checked + .slidert:before {
   font-size: 28px;
 }
 .tab-cards{
-  border: 1px solid black;
   margin-top: 3em;
   display: flex;
 }
 .tabcard-with-icon{
-  border: 1px solid red;
   margin-left: 4.7em;
   font-size: 21px;
   color: grey;
 }
 .tabcard-with-txt{
-  border: 1px solid red;
-  margin-left: 10em;
+  margin-left: 2em;
   font-size: 21px;
   color: grey;
 }
@@ -1496,7 +1493,37 @@ input:checked + .slidert:before {
   background-color: white;
   box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
   border-radius: 10px;
-  margin-top: 5em;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  height: 145px;
+  width: 525px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.tab-message-txt{
+  background-color: white;
+  box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
+  border-radius: 10px;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  height: 145px;
+  width: 525px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.tab-setting-txt{
+  background-color: white;
+  box-shadow: 0 5px 10px 0 rgb(177, 177, 177);
+  border-radius: 10px;
+  margin-top: 2.5em;
   text-align: center;
   padding-top: 70px;
   padding-left: 35px;
@@ -1519,7 +1546,7 @@ input:checked + .slidert:before {
 }
 .tab-profile-btn{
   border: none;
-  background-color: #000;
+  background-color: #9c27b0;
   text-align: center;
   padding-top: 6px;
   padding-left: 30px;
@@ -1540,19 +1567,161 @@ input:checked + .slidert:before {
 }
 .tab-message-btn{
   border: none;
+  background-color: #9c27b0;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 39px;
   border-radius: 3px;
   margin-top: 1.2em;
   margin-left: 8em;
   height: 47px;
   width: 115px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.547);
+  font-weight: bold;
+}
+.tab-message-btn-icon{
+  margin-top: 1.1em;
+  margin-left: -105px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.547);
 }
 .tab-setting-btn{
   border: none;
+  background-color: #9c27b0;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 30px;
   border-radius: 3px;
   margin-top: 1.2em;
-  margin-left: 1.6em;
+  margin-left: 8.5em;
   height: 47px;
   width: 115px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.547);
+  font-weight: bold;
+}
+.tab-setting-btn-icon{
+  margin-top: 1.1em;
+  margin-left: -105px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.547);
+  transform: rotate(-90deg);
+}
+
+.tab-home-txt{
+  border-radius: 10px;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  height: 145px;
+  width: 525px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.tab-updates-txt{
+  border-radius: 10px;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  height: 145px;
+  width: 525px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.tab-history-txt{
+  border-radius: 10px;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  height: 145px;
+  width: 525px;
+  line-height: 28px;
+  font-size: 15px;
+}
+.plan-navigation-tab{
+  display: flex;
+  background-color: #e91e63;
+  box-shadow: 0 3px 8px 0 rgb(177, 177, 177);
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-top: -12.5em;
+  height: 80px;
+  width: 553px;
+}
+.tab-home-btn{
+  border: none;
+  background-color: #e91e63;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 30px;
+  border-radius: 3px;
+  margin-top: 1.2em;
+  height: 47px;
+  width: 115px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.547);
+  font-weight: bold;
+}
+.tab-updates-btn{
+  border: none;
+  background-color: #e91e63;
+  text-align: center;
+  padding-top: 6px;
+  padding-left: 39px;
+  border-radius: 3px;
+  margin-top: 1.2em;
+  height: 47px;
+  width: 115px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.547);
+  font-weight: bold;
+}
+.tab-history-btn{
+  border: none;
+  background-color: #e91e63;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 30px;
+  border-radius: 3px;
+  margin-top: 1.2em;
+  height: 47px;
+  width: 115px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.547);
+  font-weight: bold;
+}
+
+/* ------------------------ NAVIGATION PILLS CONTAINER ------------------- */
+
+.navigation-pills-container{
+  border: 1px solid red;
+  height: 650px;
+}
+.navigationpill-txt{
+  border: 1px solid black;
+  margin-top: 3em;
+  color: rgb(102, 100, 100);
+  font-weight: 350;
+  margin-left: 3.5em;
+  font-size: 29px;
+}
+.navigationpill-card-txt{
+  border: 1px solid red;
+  margin-top: 2em;
+  color: grey;
+  font-weight: 450;
+  margin-left: 3.5em;
+  font-size: 23px;
 }
 
 
