@@ -70,8 +70,9 @@
 }
 
 .btn-default{
-  height: 40px;
-  width: 100px;
+  height: 45px;
+  width: 120px;
+  margin-left: 3em;
   margin-right: .2em;
   color: white;
   font-size: 12px;
@@ -85,8 +86,8 @@
 }
 
 .btn-round{
-  height: 40px;
-  width: 100px;
+  height: 45px;
+  width: 120px;
   margin-right: .2em;
   color: white;
   font-size: 12px;
@@ -102,7 +103,7 @@
 .btn-icon{
   position: relative;
   display: flex;
-  height: 40px;
+  height: 45px;
   width: 150px;
   margin-right: .3em;
   padding-top: 12px;
@@ -150,8 +151,8 @@
   border-radius: 100%;
   background-color: #9c27b0;
   margin-right: .5em;
-  width: 45px; 
-  height: 43px;
+  width: 50px; 
+  height: 48px;
 }
 .btn-symbol:hover{
   box-shadow: 0 5px 5px #7c4c857e;
@@ -159,8 +160,8 @@
 
 .symbol-heart{
   margin-left: .5em;
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   border: 1px solid white;
   border-radius: 100%;
   background: white;
@@ -186,8 +187,8 @@
 }  */
 
 .btn-simple{
-  height: 40px;
-  width: 100px;
+  height: 45px;
+  width: 120px;
   border: none;
   background-color: white;
   color: #9c27b0;
@@ -204,8 +205,9 @@
 }
 
 .btn-small{
-  height: 30px;
-  width: 80px;
+  height: 40px;
+  width: 100px;
+  margin-left: 3em;
   margin-right: .2em;
   color: white;
   font-size: 10px;
@@ -219,8 +221,8 @@
 }
 
 .btn-regular{
-  height: 45px;
-  width: 90px;
+  height: 55px;
+  width: 120px;
   margin-top: -.5em;
   margin-right: .2em;
   color: white;
@@ -235,8 +237,8 @@
 }
 
 .btn-large{
-  height: 60px;
-  width: 100px;
+  height: 70px;
+  width: 120px;
   margin-top: -1em;
   margin-right: .2em;
   color: white;
@@ -251,9 +253,10 @@
 }
 
 .btn-defaul{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
+  margin-left: 3em;
   margin-right: .2em;
   color: white;
   font-size: 12px;
@@ -268,8 +271,8 @@
 }
 
 .btn-primary{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
   margin-right: .2em;
   color: white;
@@ -285,8 +288,8 @@
 }
 
 .btn-info{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
   margin-right: .2em;
   color: white;
@@ -302,8 +305,8 @@
 }
 
 .btn-success{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
   margin-right: .2em;
   color: white;
@@ -319,8 +322,8 @@
 }
 
 .btn-warning{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
   margin-right: .2em;
   color: white;
@@ -336,8 +339,8 @@
 }
 
 .btn-danger{
-  height: 40px;
-  width: 100px;
+  height: 50px;
+  width: 120px;
   margin-top: .5em;
   margin-right: .2em;
   color: white;
@@ -353,15 +356,15 @@
 }
 
 .btn-rose{
-  height: 40px;
-  width: 100px;
-  margin-top: .5em;
-  margin-right: .2em;
+  height: 50px;
+  width: 120px;
+  margin-top: 6em;
+  margin-left: -61.3em;
   color: white;
   font-size: 12px;
   font-weight: bold;
-  background-color: mediumvioletred;
-  border: 1px solid mediumvioletred;
+  background-color: #e91e63;
+  border: 1px solid #e91e63;
   border-radius: 2px;
 }
 
@@ -552,7 +555,7 @@
 }
 
 .checkbox{
-  margin-right: 2em;
+  margin-right: 5em;
   height: 200px;
   width: 250px;
   border: 1px solid black;
@@ -570,7 +573,7 @@
 }
 
 .radio{
-  margin-right: 2em;
+  margin-right: 5em;
   height: 200px;
   width: 250px;
   border: 1px solid black;
@@ -910,13 +913,13 @@ input:checked + .slidert:before {
   display: flex;
   color: rgb(102, 100, 100);
   font-weight: 350;
-  margin-left: 3.4em;
+  margin-left: 4.3em;
   margin-bottom: 10px;
   width: 80%;
   font-size: 28px;
 }
 .navbar {
-  margin-left: 5.8em;
+  margin-left: 7.5em;
   height: 70px;
   width: 42%;
   background-color: #9c27b0;
@@ -1011,14 +1014,14 @@ input:checked + .slidert:before {
 }
 
 .menuwithicon-txt{
-  margin-left: 17.8em;
+  margin-left: 20em;
 }
 .menuwithicon{
   display: flex;
   background-color: #00acc1;
   box-shadow: 0 5px 10px 0 #00abc162;
   border-radius: 3px;
-  margin-left: 45em;
+  margin-left: 47em;
   margin-top: -70px;
   height: 70px;
   width: 42%;
@@ -1038,7 +1041,7 @@ input:checked + .slidert:before {
   color: white;
   font-size: 20px;
   margin-top: -32px;
-  margin-left: 17.8em; 
+  margin-left: 21.5em; 
 }
 .mail-icon:hover{
   background-color: rgba(255, 255, 255, 0.093);
@@ -1051,7 +1054,7 @@ input:checked + .slidert:before {
   padding-top: 11px;
   color: white;
   font-size: 20px;
-  margin-left: 20em; 
+  margin-left: 24em; 
   margin-top: -44px;
 }
 .face-icon:hover{
@@ -1065,7 +1068,7 @@ input:checked + .slidert:before {
   padding-top: 11px;
   color: white;
   font-size: 20px;
-  margin-left: 22.5em; 
+  margin-left: 26.5em; 
   margin-top: -42px;
 }
 .setting-icon:hover{
@@ -1102,7 +1105,7 @@ input:checked + .slidert:before {
   margin-top: 1em;
   color: rgb(102, 100, 100);
   font-weight: 350;
-  margin-left: 3.4em;
+  margin-left: 4.2em;
   margin-bottom: 12px;
   font-size: 28px;
 }
@@ -1980,6 +1983,7 @@ input:checked + .slidert:before {
 
 .header1{
   margin-top: 3.5em;
+  margin-left: 2em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2006,6 +2010,7 @@ input:checked + .slidert:before {
 
 .header2{
   margin-top: 3.5em;
+  margin-left: 2.2em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2015,8 +2020,8 @@ input:checked + .slidert:before {
 }
 
 .headertxt2{
-  margin-top: .1em;
-  margin-left: 5.7em;
+  margin-top: .3em;
+  margin-left: 5.8em;
   height: 55px;
   width: 800px;
   font-family: 'Inter';
@@ -2032,6 +2037,7 @@ input:checked + .slidert:before {
 
 .header3{
   margin-top: 3.5em;
+  margin-left: 2.3em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2041,8 +2047,8 @@ input:checked + .slidert:before {
 }
 
 .headertxt3{
-  margin-top: .1em;
-  margin-left: 8.1em;
+  margin-top: .4em;
+  margin-left: 8.3em;
   height: 55px;
   width: 800px;
   font-family: 'Inter';
@@ -2058,6 +2064,7 @@ input:checked + .slidert:before {
 
 .header4{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2067,8 +2074,8 @@ input:checked + .slidert:before {
 }
 
 .headertxt4{
-  margin-top: .1em;
-  margin-left: 11.3em;
+  margin-top: .8em;
+  margin-left: 11.8em;
   height: 55px;
   width: 800px;
   font-family: 'Inter';
@@ -2084,6 +2091,7 @@ input:checked + .slidert:before {
 
 .header5{
   margin-top: 3.5em;
+  margin-left: 2.4em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2093,8 +2101,8 @@ input:checked + .slidert:before {
 }
 
 .headertxt5{
-  margin-top: .1em;
-  margin-left: 13.5em;
+  margin-top: 1em;
+  margin-left: 14.5em;
   height: 55px;
   width: 800px;
   font-family: 'Inter';
@@ -2110,6 +2118,7 @@ input:checked + .slidert:before {
 
 .header6{
   margin-top: 3.5em;
+  margin-left: 2.4em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2119,8 +2128,8 @@ input:checked + .slidert:before {
 }
 
 .headertxt6{
-  margin-top: .1em;
-  margin-left: 17em;
+  margin-top: 1.5em;
+  margin-left: 18.5em;
   height: 55px;
   width: 800px;
   font-family: 'Inter';
@@ -2137,6 +2146,7 @@ input:checked + .slidert:before {
 
 .heading1{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2147,7 +2157,7 @@ input:checked + .slidert:before {
 
 .headingtxt1{
   margin-top: .1em;
-  margin-left: 4.1em;
+  margin-left: 4.4em;
   height: 65px;
   width: 800px;
   font-family: 'Inter';
@@ -2164,6 +2174,7 @@ input:checked + .slidert:before {
 
 .heading2{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2173,8 +2184,8 @@ input:checked + .slidert:before {
 }
 
 .headingtxt2{
-  margin-top: .1em;
-  margin-left: 6.2em;
+  margin-top: .5em;
+  margin-left: 6.9em;
   height: 65px;
   width: 800px;
   font-family: 'Inter';
@@ -2191,6 +2202,7 @@ input:checked + .slidert:before {
 
 .heading3{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2200,8 +2212,8 @@ input:checked + .slidert:before {
 }
 
 .headingtxt3{
-  margin-top: .1em;
-  margin-left: 9.4em;
+  margin-top: .5em;
+  margin-left: 10.5em;
   height: 65px;
   width: 800px;
   font-family: 'Inter';
@@ -2218,6 +2230,7 @@ input:checked + .slidert:before {
 
 .heading4{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2227,8 +2240,8 @@ input:checked + .slidert:before {
 }
 
 .headingtxt4{
-  margin-top: .1em;
-  margin-left: 11.5em;
+  margin-top: .5em;
+  margin-left: 13em;
   height: 65px;
   width: 800px;
   font-family: 'Inter';
@@ -2245,6 +2258,7 @@ input:checked + .slidert:before {
 
 .paragraph{
   margin-top: 3.5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2254,9 +2268,10 @@ input:checked + .slidert:before {
 }
 
 .para{
-  margin-left: 13.7em;
+  margin-left: 15em;
   text-align: left;
   height: 75px;
+  width: 1000px;
   font-weight: 300;
   color: rgb(158, 155, 155);
   font-size: 15px;
@@ -2269,6 +2284,7 @@ input:checked + .slidert:before {
 
 .muted{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 70px;
   font-family: 'Inter';
@@ -2279,7 +2295,7 @@ input:checked + .slidert:before {
 
 .mutedtxt{
   margin-top: 1em;
-  margin-left: 13.1em;
+  margin-left: 14.2em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2295,6 +2311,7 @@ input:checked + .slidert:before {
 
 .primary{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 80px;
   font-family: 'Inter';
@@ -2305,7 +2322,7 @@ input:checked + .slidert:before {
 
 .primarytxt{
   margin-top: 1em;
-  margin-left: 12.5em;
+  margin-left: 13.5em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2321,6 +2338,7 @@ input:checked + .slidert:before {
 
 .infoh{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 80px;
   font-family: 'Inter';
@@ -2331,7 +2349,7 @@ input:checked + .slidert:before {
 
 .infotxt{
   margin-top: 1em;
-  margin-left: 12.5em;
+  margin-left: 13.5em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2347,6 +2365,7 @@ input:checked + .slidert:before {
 
 .suces{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 80px;
   font-family: 'Inter';
@@ -2357,7 +2376,7 @@ input:checked + .slidert:before {
 
 .sucestxt{
   margin-top: 1em;
-  margin-left: 12.5em;
+  margin-left: 13.5em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2373,6 +2392,7 @@ input:checked + .slidert:before {
 
 .warn{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 80px;
   font-family: 'Inter';
@@ -2383,7 +2403,7 @@ input:checked + .slidert:before {
 
 .warntxt{
   margin-top: 1em;
-  margin-left: 12.5em;
+  margin-left: 13.5em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2399,6 +2419,7 @@ input:checked + .slidert:before {
 
 .danger{
   margin-top: 2em;
+  margin-left: 2.5em;
   height: 16px;
   width: 80px;
   font-family: 'Inter';
@@ -2409,7 +2430,7 @@ input:checked + .slidert:before {
 
 .dangertxt{
   margin-top: 1em;
-  margin-left: 12.5em;
+  margin-left: 13.5em;
   text-align: left;
   height: 30px;
   font-size: 20px;
@@ -2425,6 +2446,7 @@ input:checked + .slidert:before {
 
 .smalltag{
   margin-top: 5em;
+  margin-left: 2.5em;
   height: 16px;
   width: 60px;
   font-family: 'Inter';
@@ -2435,13 +2457,13 @@ input:checked + .slidert:before {
 
 .smalltxt1{
   margin-top: 3em;
-  margin-left: 10em;
+  margin-left: 11.1em;
   font-size: 20px;
   color: rgb(97, 96, 96);
 }
 
 .smalltxt2{
-  margin-left: 5em;
+  margin-left: 5.5em;
   margin-top: -2.5em;
   font-size: 40px;
   font-weight: lighter;
@@ -2456,7 +2478,7 @@ input:checked + .slidert:before {
 }
 
 .imagetxt{
-  margin-left: 2.4em;
+  margin-left: 3em;
   font-family: 'Inter';
   color: rgb(69, 68, 68);
   font-weight: 10vw;
@@ -2467,7 +2489,7 @@ input:checked + .slidert:before {
 .imageboxtxt{
   display: flex;
   margin-top: 2em;
-  margin-left: 5.2em;
+  margin-left: 6.8em;
   height: 30px;
 }
 
@@ -2506,7 +2528,7 @@ input:checked + .slidert:before {
 .imagebox{
   display: flex;
   margin-top: 1em;
-  margin-left: 5.1em;
+  margin-left: 7em;
   height: 180px;
 }
 

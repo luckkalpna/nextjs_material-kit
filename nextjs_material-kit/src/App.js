@@ -68,7 +68,6 @@ function App() {
             <button className="btn-success">SUCCESS</button>
             <button className="btn-warning">WARNING</button>
             <button className="btn-danger">DANGER</button>
-            <br />
             <button className="btn-rose">ROSE</button>
           </div>
           {/* ------------------------INPUT FORM----------------------- */}
