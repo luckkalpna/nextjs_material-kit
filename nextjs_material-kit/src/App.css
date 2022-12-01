@@ -3031,7 +3031,7 @@ input:checked + .slidert:before {
   border: 1px solid red;
   border-radius: 2%;
   margin-top: 5em;
-  margin-left: 20em;
+  margin-left: 25em;
   height: 350px;
   width: 650px;
 }
@@ -3053,23 +3053,23 @@ input:checked + .slidert:before {
 
 .completed-txt{
   border: 1px solid red;
-  margin-left: 10.5em;
+  margin-left: 13em;
   font-size: 40px;
   font-weight: 300;
   height: 55px;
-  width: 33.5%;
+  width: 30%;
 }
 
 .completed-small-txt{
   border: 1px solid red;
   text-align: center;
-  margin-left: 11.5em;
+  margin-left: 17em;
   margin-top: .5em;
   color: grey;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   height: 85px;
-  width: 800px;
+  width: 790px;
 }
 
 /* --------------------- Big form and image ---------------- */
@@ -3089,7 +3089,7 @@ input:checked + .slidert:before {
   border: 1px solid black;
   border-radius: 7px;
   background-color: white;
-  margin-left: 29.5em;
+  margin-left: 34.5em;
   margin-top: 8em;
   height: 450px;
   width: 330px;
@@ -3242,7 +3242,7 @@ input:checked + .slidert:before {
 
 .last-form-icon{
   border: 1px solid #9c27b0;
-  margin-left: 30.5em;
+  margin-left: 35.5em;
   border-radius: 3px;
   background-color: #9c27b0;
   box-shadow: 0 3px 8px 0 #c35ed4;
@@ -3358,9 +3358,9 @@ input:checked + .slidert:before {
 
 .love-txt-small{
   margin-top: 1em;
-  margin-left: 14.7em;
-  width: 730px;
-  font-size: 18px;
+  margin-left: 16em;
+  width: 810px;
+  font-size: 20px;
   font-weight: 400;
   color: rgb(95, 95, 95);
   text-align: center;
@@ -3374,13 +3374,13 @@ input:checked + .slidert:before {
 
 .box-btn1{
   width: 235px;
-  margin-left: 30.5em;
+  margin-left: 32.5em;
   margin-right: .2em;
   background-color: #9c27b0;
   border: none;
   border-radius: 3px;
   color: white;
-  font-size: 13px;
+  font-size: 15.3px;
   font-weight: 400;
   cursor: pointer;
 }
@@ -3419,6 +3419,7 @@ input:checked + .slidert:before {
 
 .want-txt{
   margin-top: 2em;
+  margin-left: 1em;
   color: rgb(41, 41, 41);
   font-size: 40px;
   font-weight: 320;
@@ -3428,15 +3429,15 @@ input:checked + .slidert:before {
 .want-txt-small{
   margin-top: 1em;
   margin-left: 14.7em;
-  width: 730px;
-  font-size: 18px;
+  width: 850px;
+  font-size: 21px;
   font-weight: 400;
   color: rgb(95, 95, 95);
   text-align: center;
 }
 
 .want-txt-small-span{
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 400;
   color: #9c27b0;
 }
@@ -3449,7 +3450,7 @@ input:checked + .slidert:before {
 
 .last-box-btn1{
   width: 235px;
-  margin-left: 30.5em;
+  margin-left: 38em;
   margin-right: .2em;
   background-color: #e91e63;
   border: none;

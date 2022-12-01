@@ -743,10 +743,10 @@ function App() {
             </div>
             <div className="want-txt">Want more?</div>
             <div className="want-txt-small">
-              We've just launched{" "}
+              We've just launched
               <span className="want-txt-small-span">
                 NextJS Material Kit PRO
-              </span>{" "}
+              </span>
               .It has a huge number of components, sections and example pages.
               Start Your Development With A Badass Material-UI and NexJS Kit
               inspired by Material Design.
