@@ -3074,18 +3074,28 @@ input:checked + .slidert:before {
 
 /* --------------------- Big form and image ---------------- */
 
+.main-image-container{
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
 .last-image-container{
   border: 1px solid black;
-  margin-top: 2em;
-  height: 700px;
+  margin-top: 10em;
+  height: 580px;
   width: 100%;
   position: center;
-  /* background-image: url("sign.jpg"); */
+  background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
 }
 
-.last-form{
+/* //  start   /// */
+
+.last-form{   
   border: 1px solid black;
   border-radius: 7px;
   background-color: white;
@@ -3240,6 +3250,8 @@ input:checked + .slidert:before {
   margin-top: 12em;
 }
 
+/* /////    end     ////// */
+
 .last-form-icon{
   border: 1px solid #9c27b0;
   margin-left: 35.5em;
@@ -3345,7 +3357,7 @@ input:checked + .slidert:before {
 
 .ending-txt{
   border: 1px solid purple;
-  margin-top: 135em;
+  margin-top: 168em;
   height: 800px;
 }
 

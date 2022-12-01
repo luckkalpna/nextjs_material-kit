@@ -634,8 +634,8 @@ function App() {
 
             {/* ------------------ Big Image container ---------------- */}
 
+            <div className="main-image-container"><img src="image/sign.jpg" alt="image" className="main-image-container"/></div>
             <div className="last-image-container">
-              {/* <img src="image/sign.jpg" alt="image" /> */}
               <div className="form-txt"></div>
               <div className="last-form">
                 <div className="last-form-small-txt">Or Be Classical</div>
