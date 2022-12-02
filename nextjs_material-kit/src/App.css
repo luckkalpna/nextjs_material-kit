@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 1800vh;
+  height: 1570vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   margin-left: 1.5em;
   margin-top: -13em;
   width: 95vw;
-  height: 1700vh;
+  height: 1475vh;
   background-color: white;
   box-shadow: 0 8px 15px 0 #5151519f;
   border: 1px white;
@@ -3074,40 +3074,33 @@ input:checked + .slidert:before {
 
 /* --------------------- Big form and image ---------------- */
 
-.main-image-container{
-  height: 1000px;
-  width: 100%;
-  background-size: cover;
-  overflow: hidden;
-  background-position: center;
-}
 
 .last-image-container{
-  border: 1px solid black;
-  margin-top: 10em;
-  height: 580px;
+  margin-top: 5em;
+  background-image: url('../public/Image/sign.jpg');
+  min-height: 810px;
   width: 100%;
-  position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 /* //  start   /// */
 
 .last-form{   
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 7px;
   background-color: white;
-  margin-left: 34.5em;
+  margin-left: 34.1em;
   margin-top: 8em;
-  height: 450px;
-  width: 330px;
+  height: 560px;
+  width: 390px;
 }
 
 .last-form-small-txt{
-  margin-top: 9em;
-  margin-left: 8em;
+  margin-top: 10em;
+  margin-left: 9.5em;
   color: grey;
   font-size: 15px;
 }
@@ -3117,7 +3110,7 @@ input:checked + .slidert:before {
   position: relative;
 }
 .row1 input{
-  width: 90%;
+  width: 92%;
   margin-left: 1em;
   background: transparent;
   border: none;
@@ -3147,18 +3140,18 @@ input:checked + .slidert:before {
 
 .last-input-icon1{
   position: absolute;
-  left: 10em;
+  left: 12em;
   top: -.3em;
-  color: grey;
+  color: rgb(85, 84, 84);
   font-size: 28px;
 }
 
 .row2{
-  margin-top: 3em;
+  margin-top: 4em;
   position: relative;
 }
 .row2 input{
-  width: 90%;
+  width: 92%;
   margin-left: 1em;
   background: transparent;
   border: none;
@@ -3188,18 +3181,18 @@ input:checked + .slidert:before {
 
 .last-input-icon2{
   position: absolute;
-  left: 10em;
+  left: 12em;
   top: -.3em;
-  color: grey;
+  color: rgb(85, 84, 84);
   font-size: 28px;
 }
 
 .row3{
-  margin-top: 3em;
+  margin-top: 4em;
   position: relative;
 }
 .row3 input{
-  width: 90%;
+  width: 92%;
   margin-left: 1em;
   background: transparent;
   border: none;
@@ -3229,15 +3222,15 @@ input:checked + .slidert:before {
 
 .last-input-icon3{
   position: absolute;
-  left: 10em;
+  left: 12em;
   top: -.3em;
-  color: grey;
+  color: rgb(85, 84, 84);
   font-size: 28px;
 }
 
 .login-txt{
-  margin-top: 2.8em;
-  font-size: 13px;
+  margin-top: 4em;
+  font-size: 15px;
   height: 17px;
   margin-left: 10em;
   cursor: pointer;
@@ -3254,19 +3247,19 @@ input:checked + .slidert:before {
 
 .last-form-icon{
   border: 1px solid #9c27b0;
-  margin-left: 35.5em;
+  margin-left: 35.7em;
   border-radius: 3px;
   background-color: #9c27b0;
   box-shadow: 0 3px 8px 0 #c35ed4;
-  margin-top: -31em;
+  margin-top: -37em;
   height: 150px;
-  width: 300px;
+  width: 340px;
 }
 
 .last-form-txt{
   color: white;
   margin-top: 1.8em;
-  margin-left: 6.1em;
+  margin-left: 7.2em;
   font-size: 20px;
   font-weight: 200;
   height: 30px;
@@ -3274,6 +3267,7 @@ input:checked + .slidert:before {
 }
 
 .icon-box, ul, a{
+  margin-left: .6em;
   color: white;
   font-size: 30px;
   display: flex;
@@ -3282,23 +3276,20 @@ input:checked + .slidert:before {
 }
 
 .icon-box-li{
-  width: 100px;
+  width: 60px;
 }
 
-/* .link-page-txt, ul, a{
-  list-style-type: none;
-  text-decoration: none;
+.link-txt{
   font-size: 15px;
-  margin-left: 12em;
-  margin-top: .5em;
+  margin-left: 45em;
+  margin-top: 1.5em;
   color: #9c27b0;
-} */
+}
 
 /* -------------------- landing-twopages-container ------------------ */
 
 .landing-two-page{
   display: flex;
-  margin-top: -3em;
   border: 1px solid red;
   height: 382px;
 }
@@ -3310,7 +3301,7 @@ input:checked + .slidert:before {
   margin-left: 1.8em;
   margin-right: .5em;
   height: 380px;
-  width: 47%;
+  width: 50%;
   border-radius: 3%;
   background-size: cover;
   overflow: hidden;
@@ -3324,9 +3315,9 @@ input:checked + .slidert:before {
 
 .landing-two-page-txt1{
   margin-left: 18em;
-  margin-right: 38em;
+  margin-right: 35em;
   color: #9c27b0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 450;
   list-style-type: none;
   text-decoration: none;
@@ -3334,7 +3325,7 @@ input:checked + .slidert:before {
 
 .landing-two-page-txt2{
   color: #9c27b0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 450;
   list-style-type: none;
   text-decoration: none;
@@ -3357,7 +3348,7 @@ input:checked + .slidert:before {
 
 .ending-txt{
   border: 1px solid purple;
-  margin-top: 168em;
+  margin-top: 153em;
   height: 800px;
 }
 
@@ -3462,7 +3453,7 @@ input:checked + .slidert:before {
 
 .last-box-btn1{
   width: 235px;
-  margin-left: 38em;
+  margin-left: 39em;
   margin-right: .2em;
   background-color: #e91e63;
   border: none;
@@ -3507,6 +3498,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 
 .thank-txt{
   margin-top: 4em;
+  margin-left: 1em;
   height: 150px;
   text-align: center;
   font-size: 30px;
@@ -3537,7 +3529,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 }
 
 .tweet-btn-txt{
-  margin-right: -5em;
+  margin-right: -4em;
   color: white;
   font-weight: bold;
   font-size: 13px;
@@ -3547,7 +3539,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 
 .tweet-btn-txt-icon{
   color: white;
-  margin-left: -.5em;
+  margin-left: -1em;
   margin-right: .2em;
   margin-top: -.2em;
   font-size: 19.5px;
@@ -3578,7 +3570,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 
 .share-btn-txt-icon{
   color: white;
-  margin-left: -.5em;
+  margin-left: -1.2em;
   margin-right: .2em;
   margin-top: -.2em;
   font-size: 19.5px;
@@ -3608,7 +3600,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 
 .star-btn-txt-icon{
   color: white;
-  margin-left: -.5em;
+  margin-left: -1em;
   margin-right: .2em;
   margin-top: -.2em;
   font-size: 19.5px;
@@ -3618,7 +3610,7 @@ box-shadow: 0 3px 8px 0 #6f283f;
 
 .footer-container{
   display: flex;
-  margin-top: 3em;
+  margin-top: 1em;
   height: 45px;
 }
 
@@ -3703,4 +3695,25 @@ box-shadow: 0 3px 8px 0 #6f283f;
   color: #9c27b0;
   margin-left: .2em;
   margin-right: .2em;
+}
+
+
+
+.test-contaier{
+  border: 1px solid black;
+  background-image: url('../public/Image/sign.jpg');
+  min-height: 800px;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.form-container{
+  border: 1px solid red;
+  margin-left: 10em;
+  margin-top: 30em;
+  background-color: #00acc1;
+  height: 100px;
+  width: 200px;
 }

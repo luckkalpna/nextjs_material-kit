@@ -634,9 +634,7 @@ function App() {
 
             {/* ------------------ Big Image container ---------------- */}
 
-            <div className="main-image-container"><img src="image/sign.jpg" alt="image" className="main-image-container"/></div>
             <div className="last-image-container">
-              <div className="form-txt"></div>
               <div className="last-form">
                 <div className="last-form-small-txt">Or Be Classical</div>
                 <form action="">
@@ -686,10 +684,9 @@ function App() {
                   </ul>
                 </div>
               </div>
-              {/* <img src="image/sign.jpg" alt="image" className="last-image-container"/> */}
             </div>
-            <div className="link-page-txt">
-              d
+            <div className="link-txt">
+              VIEW LOGIN PAGE
               <ul className="link-page-txt">
                 <a href="#" className="link-page-txt">
                   VIEW LOGIN PAGE
