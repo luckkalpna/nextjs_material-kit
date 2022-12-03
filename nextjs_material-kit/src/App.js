@@ -21,6 +21,7 @@ import Tabcardwithicon from "./components/Tabcardwithicon";
 import Tabplanecard from "./components/Tabplanecard";
 import Horizontalpillnav from "./components/Horizontalpillnav";
 import Verticalpill from "./components/Verticalpill";
+import Topnavbar from "./components/Topnavbar";
 // import Navbarwithprofile from "./components/Navbarwithprofile";
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
         <img src="./nextjs_header.jpg" alt="image" />
         <div className="container">
           <div className="text-box">
-          <div className="top-nav">NextJS Material Kit</div>
+          <Topnavbar />
             <h4 className="text">NextJS Material Kit.</h4>
             <p className="texts">
               A Badass Material Kit based on Material-UI and NextJS.

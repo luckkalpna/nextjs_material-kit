@@ -11,6 +11,7 @@
 
 .top-nav{
   border: 1px solid white;
+  display: flex;
   border-radius: 8px;
   height: 60px;
   width: 1378px;
@@ -21,6 +22,7 @@
   padding-left: 120px;
   margin-top: -26.8em;
   margin-left: -4.6em;
+  cursor: pointer;
 }
 
 .container{
