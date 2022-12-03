@@ -31,6 +31,7 @@ function App() {
         <img src="./nextjs_header.jpg" alt="image" />
         <div className="container">
           <div className="text-box">
+          <div className="top-nav">NextJS Material Kit</div>
             <h4 className="text">NextJS Material Kit.</h4>
             <p className="texts">
               A Badass Material Kit based on Material-UI and NextJS.

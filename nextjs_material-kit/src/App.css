@@ -9,6 +9,20 @@
   position: relative;
 }
 
+.top-nav{
+  border: 1px solid white;
+  border-radius: 8px;
+  height: 60px;
+  width: 1378px;
+  color: white;
+  font-size: 23px;
+  font-weight: 300;
+  padding-top: 25px;
+  padding-left: 120px;
+  margin-top: -26.8em;
+  margin-left: -4.6em;
+}
+
 .container{
   margin-left: 1.5em;
   margin-top: -13em;
@@ -27,6 +41,7 @@
 }
 
 .text{
+  margin-top: 6em;
   font-weight: 700;
   font-size: 52px;
   font-family: 'Inter';
@@ -44,7 +59,7 @@
 /* --------------------- BUTTONS SECTION ----------------------- */
 
 .section{
-  margin-top: 6em;
+  margin-top: 13.4em;
   margin-left: 2em;
   color: rgb(60, 59, 59);
   font-size: 40px;
@@ -3695,25 +3710,4 @@ box-shadow: 0 3px 8px 0 #6f283f;
   color: #9c27b0;
   margin-left: .2em;
   margin-right: .2em;
-}
-
-
-
-.test-contaier{
-  border: 1px solid black;
-  background-image: url('../public/Image/sign.jpg');
-  min-height: 800px;
-  width: 100%;
-  overflow: hidden;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-.form-container{
-  border: 1px solid red;
-  margin-left: 10em;
-  margin-top: 30em;
-  background-color: #00acc1;
-  height: 100px;
-  width: 200px;
 }
