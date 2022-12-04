@@ -25,6 +25,55 @@
   cursor: pointer;
 }
 
+.nav-comp-txt{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: .5em;
+}
+.nav-comp-icon{
+  font-size: 20px;
+  margin-left: 28em;
+}
+.nav-comparrow-icon{
+  font-size: 20px;
+}
+
+.nav-pro-txt{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: .5em;
+}
+.nav-pro-icon{
+  font-size: 18px;
+}
+
+.nav-download-txt{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: .5em;
+}
+.nav-download-icon{
+  font-size: 22px;
+}
+
+.nav-twit-icon{
+  font-size: 24px;
+  margin-top: .2em;
+}
+.nav-fb-icon{
+  font-size: 24px;
+  margin-top: .2em;
+}
+.nav-insta-icon{
+  font-size: 24px;
+  margin-top: .2em;
+}
+
+
+
 .container{
   margin-left: 1.5em;
   margin-top: -13em;
