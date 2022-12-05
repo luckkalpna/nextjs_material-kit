@@ -8,7 +8,7 @@ function Topnavbar() {
 return (
     <div>
       <div className="top-nav">NextJS Material Kit
-        <a href="#" className='nav-comp-txt'><CgMenuGridR className='nav-comp-icon'/>COMPONENTS<IoMdArrowDropdown className='nav-comparrow-icon'/></a>
+        <div className="two-icon-box"><a href="#" className='nav-comp-txt'><CgMenuGridR className='nav-comp-icon'/>COMPONENTS<IoMdArrowDropdown className='nav-comparrow-icon'/></a></div>
         <a href="#" className='nav-pro-txt'><ImBoxRemove className='nav-pro-icon'/>UPGRADE TO PRO</a>
         <a href="#" className='nav-download-txt'><IoMdCloudDownload className='nav-download-icon'/> DOWNLOAD</a>
         <a href="#" className='nav-twit-icon'><FaTwitter /></a>

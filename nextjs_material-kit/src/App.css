@@ -29,43 +29,74 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 .nav-comp-icon{
   font-size: 20px;
-  margin-left: 28em;
+  margin-left: .3em;
 }
 .nav-comparrow-icon{
   font-size: 20px;
+  margin-right: .3em;
+}
+.two-icon-box{
+  margin-top: -7px;
+  height: 50px;
+  width: 155px;
+  margin-left: 18em;
+}
+.two-icon-box:hover{
+  background-color: rgba(255, 255, 255, 0.163);
+  border-radius: 3px;
 }
 
 .nav-pro-txt{
+  margin-top: -7px;
+  padding-top: 14px;
+  padding-left: 15px;
+  height: 35px;
+  width: 148px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  margin-top: .5em;
+  margin-right: .1em;
 }
 .nav-pro-icon{
   font-size: 18px;
 }
+.nav-pro-txt:hover{
+  background-color: rgba(255, 255, 255, 0.163);
+  border-radius: 3px;
+}
 
 .nav-download-txt{
+  margin-top: -7px;
+  padding-top: 14px;
+  padding-left: 15px;
+  height: 35px;
+  width: 120px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  margin-top: .5em;
+  margin-right: 1em;
 }
 .nav-download-icon{
   font-size: 22px;
+}
+.nav-download-txt:hover{
+  background-color: rgba(255, 255, 255, 0.163);
+  border-radius: 3px;
 }
 
 .nav-twit-icon{
   font-size: 24px;
   margin-top: .2em;
+  margin-right: .8em;
 }
 .nav-fb-icon{
   font-size: 24px;
   margin-top: .2em;
+  margin-right: .8em;
 }
 .nav-insta-icon{
   font-size: 24px;
