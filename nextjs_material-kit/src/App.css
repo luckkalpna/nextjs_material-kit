@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@500&family=Combo&family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;700&display=swap');
 
 .App-header {
-  height: 1570vh;
+  height: 1635vh;
   background-color: rgb(214, 209, 209);
   display: flex;
   flex-direction: column;
@@ -11,6 +11,7 @@
 
 .top-nav{
   border: 1px solid white;
+  position: fixed;
   display: flex;
   border-radius: 8px;
   height: 60px;
@@ -20,7 +21,7 @@
   font-weight: 300;
   padding-top: 25px;
   padding-left: 120px;
-  margin-top: -26.8em;
+  margin-top: -13.6em;
   margin-left: -4.6em;
   cursor: pointer;
 }
@@ -49,7 +50,20 @@
   background-color: rgba(255, 255, 255, 0.163);
   border-radius: 3px;
 }
-
+.top-dropdown-container{
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: .8em;
+  height: 85px;
+}
+.top-dropdown-item{
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+  font-size: 16px;
+  padding-left: 7px;
+  line-height: 40px;
+}
 .nav-pro-txt{
   margin-top: -7px;
   padding-top: 14px;
@@ -109,7 +123,7 @@
   margin-left: 1.5em;
   margin-top: -13em;
   width: 95vw;
-  height: 1475vh;
+  height: 1540vh;
   background-color: white;
   box-shadow: 0 8px 15px 0 #5151519f;
   border: 1px white;
@@ -117,23 +131,20 @@
 }
 
 .text-box{
-  height: 20vh;
-  margin-top: -20em;
+  margin-top: -24em;
   margin-left: 5em;
 }
 
 .text{
-  margin-top: 6em;
   font-weight: 700;
-  font-size: 52px;
+  font-size: 60px;
   font-family: 'Inter';
   color: white;
 }
 
 .texts{
   margin-top: -2em;
-  font-size: 15px;
-  word-spacing: 3px;
+  font-size: 20px;
   font-family: 'Inter';
   color: white;
 }
@@ -141,7 +152,7 @@
 /* --------------------- BUTTONS SECTION ----------------------- */
 
 .section{
-  margin-top: 13.4em;
+  margin-top: 5.8em;
   margin-left: 2em;
   color: rgb(60, 59, 59);
   font-size: 40px;
@@ -264,24 +275,6 @@
   background: white;
 }
 
-/* .symbol-heart:before, .symbol-heart:after { 
-  position: absolute; 
-  content: ""; 
-  left: 25px; 
-  top: -4px; 
-  width: 15px; 
-  height: 23px; 
-  background: white; 
-  border-radius: 50px 50px 0 0; 
-  transform: rotate(50deg); 
-  transform-origin: 0 100%;
-} 
-  
-.symbol-heart:after { 
-  left: 30px; 
-  transform: rotate(-50deg); 
-  transform-origin :100% 100%; 
-}  */
 
 .btn-simple{
   height: 45px;
@@ -302,7 +295,7 @@
 }
 
 .btn-small{
-  height: 40px;
+  height: 38px;
   width: 100px;
   margin-left: 3em;
   margin-right: .2em;
@@ -318,10 +311,10 @@
 }
 
 .btn-regular{
-  height: 55px;
+  height: 50px;
   width: 120px;
   margin-top: -.5em;
-  margin-right: .2em;
+  margin-right: .1em;
   color: white;
   font-size: 12px;
   font-weight: bold;
@@ -334,7 +327,7 @@
 }
 
 .btn-large{
-  height: 70px;
+  height: 65px;
   width: 120px;
   margin-top: -1em;
   margin-right: .2em;
@@ -350,7 +343,7 @@
 }
 
 .btn-defaul{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-left: 3em;
@@ -368,7 +361,7 @@
 }
 
 .btn-primary{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-right: .2em;
@@ -385,7 +378,7 @@
 }
 
 .btn-info{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-right: .2em;
@@ -402,7 +395,7 @@
 }
 
 .btn-success{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-right: .2em;
@@ -419,7 +412,7 @@
 }
 
 .btn-warning{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-right: .2em;
@@ -436,7 +429,7 @@
 }
 
 .btn-danger{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: .5em;
   margin-right: .2em;
@@ -453,7 +446,7 @@
 }
 
 .btn-rose{
-  height: 50px;
+  height: 45px;
   width: 120px;
   margin-top: 6em;
   margin-left: -61.3em;
