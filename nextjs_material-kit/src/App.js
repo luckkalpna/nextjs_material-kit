@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { useState } from 'react';
 import Navbar from "./Navbar";
 import {
   FaCopy,
@@ -25,10 +26,15 @@ import Topnavbar from "./components/Topnavbar";
 // import Navbarwithprofile from "./components/Navbarwithprofile";
 
 function App() {
+
+  const [isActiveLeft, setActiveLeft] = useState(false);
+  
+  const [isActiveTop, setActiveTop] = useState(false);
+
   return (
     <div className="App">
       {/* ---------------------- header --------------------- */}
-      <div className="App-header">
+      <div className="App-header"> 
         <img src="./nextjs_header.jpg" alt="image" />
         <div className="container">
           <div className="text-box">
@@ -588,8 +594,25 @@ function App() {
               <div className="popovers-toplists">
                 <div className="popovetxt">Popovers</div>
                 <div className="popovebtns">
-                  <button className="pbtn1">ON LEFT</button>
-                  <button className="pbtn2">ON TOP</button>
+                  <button className="pbtn1" onClick={(e) => setActiveLeft(!isActiveLeft)}>ON LEFT</button>
+                  {isActiveLeft && (
+                    <div className="popove-left-container">
+                    <div className="popove-left-container-heading">
+                      Popover on left
+                    </div>
+                    <div className="popove-left-container-txt">Here will be some very useful information about his popover. Here will be some very useful information about his popover.
+                    </div>
+                  </div>
+                  )}
+                  
+                    <div className="popove-top-container">
+                    <div className="popove-top-container-heading">
+                      Popover on top
+                    </div>
+                    <div className="popove-top-container-txt">Here will be some very useful information about his popover.
+                    </div>
+                  </div>
+                  <button className="pbtn2" >ON TOP</button>
                   <button className="pbtn3">ON BOTTOM</button>
                   <button className="pbtn4">ON RIGHT</button>
                 </div>
