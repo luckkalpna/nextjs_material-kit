@@ -1666,6 +1666,7 @@ input:checked + .slidert:before {
   border: none;
   background-color: #9c27b0;
   text-align: center;
+  cursor: pointer;
   padding-top: 6px;
   padding-left: 39px;
   border-radius: 3px;
@@ -1687,6 +1688,7 @@ input:checked + .slidert:before {
   border: none;
   background-color: #9c27b0;
   text-align: center;
+  cursor: pointer;
   padding-top: 5px;
   padding-left: 30px;
   border-radius: 3px;
