@@ -1643,6 +1643,7 @@ input:checked + .slidert:before {
 .tab-profile-btn{
   border: none;
   background-color: #9c27b0;
+  cursor: pointer;
   text-align: center;
   padding-top: 6px;
   padding-left: 30px;
