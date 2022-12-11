@@ -279,18 +279,16 @@ function App() {
 
             <div className="pagination-container">Pagination</div>
           </div>
+
+          {/* ------------------------ Slider ---------------------------- */}
+
           <div className="slider-budges">
             <div className="box">
-              Slider
               <div className="slidercontainer">
-                <input
-                  type="range"
-                  min="1"
-                  max="100"
-                  value="1"
-                  id="myRange"
-                  className="slider"
-                />
+              Slider <br />
+              <form action="">
+              <input type="range" className="slider" min="0" max="100"/>
+              </form>
               </div>
             </div>
 
