@@ -287,7 +287,7 @@ function App() {
               <div className="slidercontainer">
               Slider <br />
               <form action="">
-              <input type="range" className="slider" min="0" max="100"/>
+              <input type="range" className="range" min="0" max="100"/>
               </form>
               </div>
             </div>

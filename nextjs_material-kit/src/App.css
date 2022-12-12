@@ -868,11 +868,12 @@ input:checked + .slidert:before {
   border: 1px solid black;
 }
 
-.slider{
+.range{
   width: 99.9%;
   height: 5px;
+  position: relative;
 }
-.slider{
+.range{
   width: 99.2%;
   height: 2px;
   border: 1px solid grey;
@@ -881,7 +882,7 @@ input:checked + .slidert:before {
   background-color: rgb(184, 183, 183);
   overflow: hidden;
 }
-.slider::-webkit-slider-thumb{
+.range::-webkit-slider-thumb{
   appearance: none;
   height: 15px;
   width: 15px;
