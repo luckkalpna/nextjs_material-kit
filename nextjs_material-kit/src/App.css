@@ -892,6 +892,10 @@ input:checked + .slidert:before {
   box-shadow: -407px 0 0 400px #c35ed4;
 }
 
+.range-2{
+  margin-top: 2em;
+}
+
 /* ------------------ BUDGES ------------------ */
 
 .budges{
