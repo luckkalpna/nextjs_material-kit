@@ -876,11 +876,10 @@ input:checked + .slidert:before {
 .range{
   width: 99.2%;
   height: 2px;
-  border: 1px solid grey;
   border-radius: 2px;
   appearance: none;
   background-color: rgb(184, 183, 183);
-  overflow: hidden;
+  overflow:  hidden;
 }
 .range::-webkit-slider-thumb{
   appearance: none;
@@ -894,6 +893,22 @@ input:checked + .slidert:before {
 
 .range-2{
   margin-top: 2em;
+}
+.range-2, .slider-track, input[type="range-1"]::-webkit-slider-thumb{
+  appearance: none;
+  outline: none;
+  position: absolute;
+  background-color: transparent;
+  pointer-events: none;
+}
+.slider-track{
+  width: 40%;
+  height: 5px;
+  background-color: grey;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
 }
 
 /* ------------------ BUDGES ------------------ */

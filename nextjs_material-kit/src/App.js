@@ -288,7 +288,10 @@ function App() {
               Slider <br />
               <form action="">
               <input type="range" className="range" min="0" max="100"/> <br />
-              <input type="range" className="range-2" min="0" max="100" />
+              <div className="slider-track">
+              <input type="range-1" className="range-2" min="0" max="100" id="slider-1"/>
+              <input type="range-1" className="range-3" min="0" max="100" id="slider-1"/>
+              </div>
               </form>
               </div>
             </div>
