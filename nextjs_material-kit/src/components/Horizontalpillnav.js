@@ -6,7 +6,7 @@ function Horizontalpillnav() {
   return (
     <div>
 
-      <div className="horizontal-pill-nav">
+      <div className="horizontal-pill-nav aa">
         <button className='dashboard-txt'>
           <MdDashboard className='dashboard-icon' />
           DASHBOARD</button>
